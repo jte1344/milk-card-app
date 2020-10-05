@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="text-center">Drink Orders: </h1>
+  <div *ngFor="let order of orders" class=" my-5 p-4 shadow">
+    <h1>{{ order.classroom }}</h1>
+    <hr>
+    <h1>Milk total: {{ order.drinks.milk }}</h1>
+    <h1>Water total: {{ order.drinks.water }}</h1>
+    <h1 *ngIf="dayName === 'Friday'">Chocolate Milk: {{ order.drinks.chocoMilk }}</h1>
+    <hr>
+    <table class="w-100">
+      <tr *ngFor="let student of order.students">
+        <td class="w-50"><h4>{{ student.name }}</h4></td>
+        <td class="w-50"><h4>{{ student.drink }}</h4></td>
+      </tr>
+    </table>
+  </div>
+</div>

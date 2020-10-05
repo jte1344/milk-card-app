@@ -1,0 +1,19 @@
+@media (min-width: 575px) {
+  .sliding-background {
+    background: url("../../assets/img/milkBG.png") no-repeat;
+    height: 100vh;
+    background-size: contain;
+    background-attachment: fixed;
+    width: auto;
+    background-position: 50% 50%;
+  }
+}
+@media (max-width: 575px) {
+  .sliding-background {
+    background: url("../../assets/img/milkBG-xs.png");
+    height: 50vh;
+    background-size: cover;
+    width: auto;
+    background-position: 50% 50%;
+  }
+}

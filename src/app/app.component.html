@@ -1,0 +1,29 @@
+<div class="">
+  <div *ngIf="currentUser">
+    <nav class="navbar navbar-expand-sm navbar-light position-fixed min-w-100 pr-0 z-999 bg-white">
+      <a class="navbar-brand" routerLink="/">
+        <img src="assets/img/milk.png" width="50" height="50" class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler mr-4 border-0" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto mr-4">
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="/">
+              <h3 [ngClass]="{'op-50' : !isHomeRoute()}" (click)="isMenuCollapsed = true">Home</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" routerLink="/">
+              <h3 [ngClass]="{'op-50' : !isHomeRoute()}" (click)="logout()">Logout</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="pt-nav">
+    <router-outlet></router-outlet>
+  </div>
+</div>

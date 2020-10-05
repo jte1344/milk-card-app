@@ -1,0 +1,13 @@
+[{
+  "id": 1,
+  "username": "admin",
+  "password": "WWAadmin",
+  "access": "admin",
+  "token": ""
+}, {
+  "id": 2,
+  "username": "teacher",
+  "password": "WWAteacher",
+  "access": "teacher",
+  "token": ""
+}]

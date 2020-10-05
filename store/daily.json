@@ -1,0 +1,75 @@
+{
+  "data": [{
+    "classroom": "4B",
+    "students": [{
+      "name": "Arlanagic, Azzer",
+      "drink": "milk"
+    }, {
+      "name": "Bragg, Rylen",
+      "drink": "water"
+    }, {
+      "name": "Debus-Nesredin, Noah",
+      "drink": "milk"
+    }, {
+      "name": "Hayes, Ella ",
+      "drink": "water"
+    }, {
+      "name": "Trammel, Joseph",
+      "drink": "water"
+    }, {
+      "name": "Weaver, Tobin",
+      "drink": "milk"
+    }],
+    "drinks": {
+      "milk": 3,
+      "water": 3,
+      "chocoMilk": 0
+    }
+  }, {
+    "classroom": "Albert",
+    "students": [{
+      "name": "Cherry, Aleena",
+      "drink": "milk"
+    }, {
+      "name": "May, Sutton",
+      "drink": "water"
+    }, {
+      "name": "Powell, Matthew",
+      "drink": "milk"
+    }, {
+      "name": "Salazar, Selena",
+      "drink": "milk"
+    }, {
+      "name": "Scanlan, Morgan",
+      "drink": "water"
+    }],
+    "drinks": {
+      "milk": 3,
+      "water": 2,
+      "chocoMilk": 0
+    }
+  }, {
+    "classroom": "1A",
+    "students": [{
+      "name": "Green, Weston",
+      "drink": "milk"
+    }, {
+      "name": "Jugert, Lily",
+      "drink": "water"
+    }, {
+      "name": "Powell, Haleigh",
+      "drink": "milk"
+    }, {
+      "name": "Strange, Jaxon",
+      "drink": "milk"
+    }, {
+      "name": "Waugh, Evelyn",
+      "drink": "water"
+    }],
+    "drinks": {
+      "milk": 3,
+      "water": 2,
+      "chocoMilk": 0
+    }
+  }]
+}

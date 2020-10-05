@@ -1,0 +1,89 @@
+[{
+  "id": 1,
+  "teacherName": "Albert",
+  "level": "K"
+}, {
+  "id": 2,
+  "teacherName": "Knight",
+  "level": "K"
+}, {
+  "id": 3,
+  "teacherName": "Lang",
+  "level": "K"
+}, {
+  "id": 4,
+  "teacherName": "1A",
+  "level": "1"
+}, {
+  "id": 5,
+  "teacherName": "1B",
+  "level": "1"
+}, {
+  "id": 6,
+  "teacherName": "1C",
+  "level": "1"
+}, {
+  "id": 7,
+  "teacherName": "2A",
+  "level": "2"
+}, {
+  "id": 8,
+  "teacherName": "2B",
+  "level": "2"
+}, {
+  "id": 9,
+  "teacherName": "2C",
+  "level": "2"
+}, {
+  "id": 10,
+  "teacherName": "3A",
+  "level": "3"
+}, {
+  "id": 11,
+  "teacherName": "3B",
+  "level": "3"
+}, {
+  "id": 12,
+  "teacherName": "3C",
+  "level": "3"
+}, {
+  "id": 13,
+  "teacherName": "4A",
+  "level": "4"
+}, {
+  "id": 14,
+  "teacherName": "4B",
+  "level": "4"
+}, {
+  "id": 15,
+  "teacherName": "4C",
+  "level": "4"
+}, {
+  "id": 16,
+  "teacherName": "5A",
+  "level": "5"
+}, {
+  "id": 17,
+  "teacherName": "5B",
+  "level": "5"
+}, {
+  "id": 18,
+  "teacherName": "5C",
+  "level": "5"
+}, {
+  "id": 19,
+  "teacherName": "Bennett",
+  "level": "6"
+}, {
+  "id": 20,
+  "teacherName": "Kessel",
+  "level": "6"
+}, {
+  "id": 21,
+  "teacherName": "7th",
+  "level": "7"
+}, {
+  "id": 22,
+  "teacherName": "8th",
+  "level": "8"
+}]
