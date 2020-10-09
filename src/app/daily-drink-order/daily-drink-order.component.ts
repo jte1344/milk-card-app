@@ -13,7 +13,7 @@ import { first } from 'rxjs/operators';
 export class DailyDrinkOrderComponent implements OnInit {
 
   currentUser: User;
-  orders: any[];
+  orders: any;
   loading = false;
 
   dayName = new Date().toLocaleString("en-US", {

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
 import { Classroom } from 'src/app/_models/classroom';
+import { Student } from '../_models/student';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,13 @@ export class AdminService {
   ) { }
 
   getDrinkOrder(currentUser) {
-    return this.http.get<any[]>(`${environment.apiUrl}/api/drinkOrder`);
+    return this.http.get<any>(`${environment.apiUrl}/api/drinkOrder`);
+  }
+  getAllStudents(currentUser) {
+    return this.http.get<Student[]>(`${environment.apiUrl}/api/getStudents`);
+  }
+  postStudents(currentUser, data) {
+    return this.http.post<any>(`${environment.apiUrl}/api/postStudents`, { currentUser, data });
   }
 
 }

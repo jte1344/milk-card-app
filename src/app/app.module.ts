@@ -18,6 +18,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FooterComponent } from './footer/footer.component';
 import { ClassroomComponent } from './classroom/classroom.component';
 import { DailyDrinkOrderComponent } from './daily-drink-order/daily-drink-order.component';
+import { StudentsComponent } from './students/students.component';
+import { ClassesComponent } from './classes/classes.component';
+import { EditStudentComponent } from './edit-student/edit-student.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { DailyDrinkOrderComponent } from './daily-drink-order/daily-drink-order.
     LoginComponent,
     ClassroomComponent,
     DailyDrinkOrderComponent,
+    StudentsComponent,
+    ClassesComponent,
+    EditStudentComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="">
+        <button class="btn btn-primary my-5" (click)="fireEvent()">Export to Excel</button>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="">
+        <div class="my-5">
+          <input class="p-1 mr-5" type="file" (change)="onFileChange($event)" />
+          <h1>{{fileName}}</h1>
+          <p class="">*Do not change column headers in the excel sheet</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="">
+        <div class="w-100 text-center my-5">
+          <button class="btn btn-success" (click)="saveStudents()">Save</button>
+          <p class="">*Make sure table below is correct before saving</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4 class="text-danger">*Do not change column headers in the excel sheet</h4>
+  <table class="w-100" class="table" #table>
+    <tr *ngFor="let student of students">
+      <td class="hidden">
+        <h4>{{ student.id }}</h4>
+      </td>
+      <td class="">
+        <a routerLink="/students/{{ student.id }}" class="CD-text-decoration" *ngIf="student.id !== 'id'">
+          <button class="btn solid-blue rounded-pill">
+            <h4 class="text-white px-4">{{ student.name }}</h4>
+          </button>
+        </a>
+        <h4 *ngIf="student.id === 'id'">{{ student.name }}</h4>
+      </td>
+      <td class="">
+        <h4>{{ student.email }}</h4>
+      </td>
+      <td class="">
+        <h4>{{ student.classID }}</h4>
+      </td>
+      <td class="">
+        <h4>{{ student.balance }}</h4>
+      </td>
+      <td class="hidden">
+        <h4>{{ student.choice }}</h4>
+      </td>
+    </tr>
+  </table>
+</div>

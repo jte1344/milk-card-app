@@ -71,10 +71,6 @@ export class ClassroomComponent implements OnInit {
       .subscribe(
         data => {
           this.response = data;
-        },
-        error => {
-          this.error = error;
-          this.loading = false;
         });
   }
 

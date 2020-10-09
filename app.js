@@ -76,8 +76,12 @@ cron.schedule("00 00 00 * * *", () => {
   } catch (err) {
     console.error(err)
   }
+
   for (var i = 0; i < students.length; i++) {
-    students[i].choice = "";
+    if (students[i].choice !== "none") {
+      students[i].balance--;
+      students[i].choice = "none";
+    }
   }
   try {
     fs.writeFileSync('./store/students.json', JSON.stringify(students));
@@ -94,10 +98,9 @@ cron.schedule("00 00 00 * * *", () => {
 //  (0 */1 * * * *) = every minute
 //  (S M H D/month M D/week)
 
-const decStudentBal = (id, drink) => {
+const setStudentDrink = (id, drink) => {
   var currStudent = students.find(x => x.id == id);
   currStudent.choice = drink;
-  currStudent.balance--;
   var path = './store/students.json';
   try {
     fs.writeFileSync(path, JSON.stringify(students));
@@ -181,6 +184,51 @@ app.post('/api/authenticate', (req, res) => {
 
 
 
+app.post('/api/postStudents', (req, res) => {
+  //verifyUser(req.query.token);
+
+
+  console.log("Saving students to json");
+  var studentImport = req.body.data;
+  try {
+    fs.writeFileSync('./store/students.json', JSON.stringify(studentImport));
+  } catch (err) {
+    console.error(err)
+  }
+
+
+  console.log("Finding classes");
+  var classroomImport = [];
+  for (var i = 0; i < studentImport.length; i++) {
+    if (!classroomImport.includes(studentImport[i].classID)) {
+      if (!(studentImport[i].classID == 'classID' || studentImport[i].classID == 'none')) {
+        classroomImport.push(studentImport[i].classID);
+      } else {
+        console.log(studentImport[i].classID);
+      }
+    }
+  }
+  classroomImport.sort();
+  console.log(classroomImport);
+  var classroomFinal = [];
+  for (var i = 0; i < classroomImport.length; i++) {
+    classroomFinal[i] = {
+      id: i,
+      teacherName: classroomImport[i]
+    }
+  }
+  console.log(JSON.stringify(classroomFinal));
+
+
+  try {
+    fs.writeFileSync('./store/classrooms.json', JSON.stringify(classroomFinal));
+  } catch (err) {
+    console.error(err)
+  }
+
+
+  res.json(students);
+});
 
 app.get('/api/students', (req, res) => {
 
@@ -207,16 +255,24 @@ app.get('/api/classes', (req, res) => {
   }
 });
 
+app.get('/api/getStudents', (req, res) => {
+
+  //verifyUser(req.query.token);
+  console.log("Getting all students");
+  res.json(students);
+
+});
+
 app.post('/api/postOrder', (req, res) => {
   //verifyUser(req.query.token);
-  var students = req.body.students;
+  var classStudent = req.body.students;
 
-  for (var i = 0; i < students.length; i++) {
-    students[i]
+  for (var i = 0; i < classStudent.length; i++) {
+    classStudent[i]
   }
 
   var output = {
-    classroom: students[0].classID,
+    classroom: classStudent[0].classID,
     students: [],
     drinks: {
       milk: 0,
@@ -229,37 +285,37 @@ app.post('/api/postOrder', (req, res) => {
   if (daily.data.find(x => x.classroom == output.classroom)) {
     daily.data.splice(daily.data.findIndex(x => x.classroom == output.classroom), 1)
   }
-  for (var i = 0; i < students.length; i++) {
-    if (students[i].choice === '') {
+  for (var i = 0; i < classStudent.length; i++) {
+    if (classStudent[i].choice === '') {
       console.log("Nothing to change");
-    } else if (students[i].choice === 'milk') {
-      var x = decStudentBal(students[i].id, 'milk')
+    } else if (classStudent[i].choice === 'milk') {
+      var x = setStudentDrink(classStudent[i].id, 'milk')
       if (x === true) {
         output.students.push({
-          name: students[i].name,
-          drink: students[i].choice
+          name: classStudent[i].name,
+          drink: classStudent[i].choice
         })
         output.drinks.milk++;
       } else {
         console.log("Unable to add drink to order");
       }
-    } else if (students[i].choice === 'water') {
-      var x = decStudentBal(students[i].id, 'water')
+    } else if (classStudent[i].choice === 'water') {
+      var x = setStudentDrink(classStudent[i].id, 'water')
       if (x === true) {
         output.students.push({
-          name: students[i].name,
-          drink: students[i].choice
+          name: classStudent[i].name,
+          drink: classStudent[i].choice
         })
         output.drinks.water++;
       } else {
         console.log("Unable to add drink to order");
       }
-    } else if (students[i].choice === 'chocoMilk') {
-      var x = decStudentBal(students[i].id, 'chocoMilk')
+    } else if (classStudent[i].choice === 'chocoMilk') {
+      var x = setStudentDrink(classStudent[i].id, 'chocoMilk')
       if (x === true) {
         output.students.push({
-          name: students[i].name,
-          drink: students[i].choice
+          name: classStudent[i].name,
+          drink: classStudent[i].choice
         })
         output.drinks.chocoMilk++;
       } else {
@@ -292,9 +348,32 @@ app.get('/api/drinkOrder', (req, res) => {
   res.json(daily);
 });
 
+
 app.get('/test', (req, res) => {
   /////////////////////////////////////////////////
+  var data = {
+    "data": []
+  };
+  try {
+    fs.writeFileSync('./store/daily.json', JSON.stringify(data))
+    console.log("Clearing daily drinks");
+  } catch (err) {
+    console.error(err)
+  }
 
+  for (var i = 0; i < students.length; i++) {
+    if (students[i].choice !== "none") {
+      students[i].balance--;
+      students[i].choice = "none";
+    }
+  }
+  try {
+    fs.writeFileSync('./store/students.json', JSON.stringify(students));
+    return true;
+  } catch (err) {
+    console.error(err)
+    return false;
+  }
   /////////////////////////////////////////////////
   res.send("Tests run.")
 })

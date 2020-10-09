@@ -2,72 +2,33 @@
   <h1 class="text-center banner-text-4">Dashboard</h1>
   <div *ngIf="currentUser.access === 'admin'">
     <div class="my-5">
-      <div class="col-12">
+
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <h1 class="text-center">Get daily drink order</h1>
         <a routerLink="/getDrinkOrder" class="CD-text-decoration">
-          <div class="rounded-pill dusty-grass h-100">
-            <h1 class="box-text-4 text-white text-center p-4">Get daily drink order</h1>
+          <div class="rounded-pill dusty-grass">
+            <h1 class="box-text-2 text-white text-center py-2 px-3">View</h1>
           </div>
         </a>
       </div>
-    </div>
-    <div class="my-5">
-      <h4 class="text-center banner-text-3">Students:</h4>
-      <div class="row">
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill dusty-grass h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Create</h1>
-            </div>
-          </a>
-        </div>
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill light-blue h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Edit</h1>
-            </div>
-          </a>
-        </div>
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill solid-red h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Delete</h1>
+      <div class="col-12 col-sm-6">
+        <h1 class="text-center">Students</h1>
+        <div class="col-12">
+          <a routerLink="/students" class="CD-text-decoration">
+            <div class="rounded-pill ripe-malinka h-100">
+              <h1 class="box-text-2 text-white text-center py-2 px-3">View</h1>
             </div>
           </a>
         </div>
       </div>
     </div>
-    <div class="my-5">
-      <h4 class="text-center banner-text-3">Classes:</h4>
-      <div class="row">
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill dusty-grass h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Create</h1>
-            </div>
-          </a>
-        </div>
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill light-blue h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Edit</h1>
-            </div>
-          </a>
-        </div>
-        <div class="col-12 col-sm-4">
-          <a routerLink="" class="CD-text-decoration">
-            <div class="rounded-pill solid-red h-100">
-              <h1 class="box-text-2 text-white text-center py-2 px-3">Delete</h1>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
     <div class="my-5">
       <h4 class="text-center banner-text-3">Active classrooms: </h4>
       <div class="row">
         <div *ngFor="let class of classrooms" class="col-12 col-sm-6 col-md-4">
-          <a [routerLink]="['/classroom', class.id]" class="CD-text-decoration">
+          <a [routerLink]="['/classroom', class.id]" class="CD-text-decoration" *ngIf="class.teacherName !== 'none'">
             <div class="p-2 h-100">
               <div class="rounded-pill solid-blue h-100">
                 <h1 class="box-text-2 text-white text-center py-2 px-3">{{ class.teacherName }}</h1>
