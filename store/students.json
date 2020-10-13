@@ -23,7 +23,7 @@
   "id": 4,
   "name": "Avellana, Dominique",
   "email": "none",
-  "classID": "Lang",
+  "classID": "0 - Lang",
   "balance": 0,
   "choice": "none"
 }, {
@@ -73,7 +73,7 @@
   "name": "Bartch, Brynley",
   "email": "none",
   "classID": "2A",
-  "balance": 6,
+  "balance": 5,
   "choice": "none"
 }, {
   "id": 12,
@@ -86,8 +86,8 @@
   "id": 13,
   "name": "Bennett, Mia",
   "email": "none",
-  "classID": "Lang",
-  "balance": 16,
+  "classID": "0 - Lang",
+  "balance": 15,
   "choice": "none"
 }, {
   "id": 14,
@@ -100,8 +100,8 @@
   "id": 15,
   "name": "Bozzy, Grant",
   "email": "none",
-  "classID": "Lang",
-  "balance": 34,
+  "classID": "0 - Lang",
+  "balance": 33,
   "choice": "none"
 }, {
   "id": 16,
@@ -156,8 +156,8 @@
   "id": 23,
   "name": "Browning, Kate",
   "email": "none",
-  "classID": "Lang",
-  "balance": 31,
+  "classID": "0 - Lang",
+  "balance": 30,
   "choice": "none"
 }, {
   "id": 24,
@@ -178,7 +178,7 @@
   "name": "Cassady, Hannah",
   "email": "none",
   "classID": "3C",
-  "balance": 26,
+  "balance": 25,
   "choice": "none"
 }, {
   "id": 27,
@@ -198,8 +198,8 @@
   "id": 29,
   "name": "Cherry, Aleena",
   "email": "none",
-  "classID": "Albert",
-  "balance": 35,
+  "classID": "0 - Albert",
+  "balance": 34,
   "choice": "none"
 }, {
   "id": 30,
@@ -219,7 +219,7 @@
   "id": 32,
   "name": "Copeland, Zoe",
   "email": "none",
-  "classID": "Knight",
+  "classID": "0 - Knight",
   "balance": 0,
   "choice": "none"
 }, {
@@ -241,7 +241,7 @@
   "name": "Csicsely, Dean",
   "email": "none",
   "classID": "3C",
-  "balance": 6,
+  "balance": 5,
   "choice": "none"
 }, {
   "id": 36,
@@ -310,8 +310,8 @@
   "id": 45,
   "name": "Empey, Hudson",
   "email": "none",
-  "classID": "Lang",
-  "balance": 29,
+  "classID": "0 - Lang",
+  "balance": 28,
   "choice": "none"
 }, {
   "id": 46,
@@ -332,7 +332,7 @@
   "name": "Finnegan, Emma",
   "email": "none",
   "classID": "2A",
-  "balance": 58,
+  "balance": 57,
   "choice": "none"
 }, {
   "id": 49,
@@ -451,21 +451,21 @@
   "name": "Gratny, Soren",
   "email": "none",
   "classID": "3C",
-  "balance": 38,
+  "balance": 37,
   "choice": "none"
 }, {
   "id": 66,
   "name": "Green, Colton",
   "email": "none",
   "classID": "3C",
-  "balance": 19,
+  "balance": 18,
   "choice": "none"
 }, {
   "id": 67,
   "name": "Green, Weston",
   "email": "none",
   "classID": "1A",
-  "balance": 29,
+  "balance": 28,
   "choice": "none"
 }, {
   "id": 68,
@@ -485,8 +485,8 @@
   "id": 71,
   "name": "Grigsby, Brooklynn",
   "email": "none",
-  "classID": "Knight",
-  "balance": 8,
+  "classID": "0 - Knight",
+  "balance": 7,
   "choice": "none"
 }, {
   "id": 70,
@@ -612,7 +612,7 @@
   "name": "Hulen, Kodi",
   "email": "none",
   "classID": "2A",
-  "balance": 21,
+  "balance": 20,
   "choice": "none"
 }, {
   "id": 89,
@@ -647,14 +647,14 @@
   "name": "Jugert, Lily",
   "email": "none",
   "classID": "1A",
-  "balance": 25,
+  "balance": 24,
   "choice": "none"
 }, {
   "id": 94,
   "name": "Kellerman, Logan",
   "email": "none",
   "classID": "3C",
-  "balance": 15,
+  "balance": 14,
   "choice": "none"
 }, {
   "id": 95,
@@ -730,22 +730,22 @@
   "id": 105,
   "name": "Komitor, Alex",
   "email": "none",
-  "classID": "Lang",
-  "balance": 10,
+  "classID": "0 - Lang",
+  "balance": 9,
   "choice": "none"
 }, {
   "id": 106,
   "name": "Komitor, Ethan",
   "email": "none",
   "classID": "3C",
-  "balance": 27,
+  "balance": 26,
   "choice": "none"
 }, {
   "id": 107,
   "name": "Kopp, Brayden",
   "email": "none",
   "classID": "2A",
-  "balance": 27,
+  "balance": 26,
   "choice": "none"
 }, {
   "id": 108,
@@ -829,14 +829,14 @@
   "name": "May, Everett",
   "email": "none",
   "classID": "2A",
-  "balance": 12,
+  "balance": 11,
   "choice": "none"
 }, {
   "id": 120,
   "name": "May, Sutton",
   "email": "none",
-  "classID": "Albert",
-  "balance": 6,
+  "classID": "0 - Albert",
+  "balance": 5,
   "choice": "none"
 }, {
   "id": 121,
@@ -920,14 +920,14 @@
   "name": "Mountain, Elise",
   "email": "none",
   "classID": "2A",
-  "balance": 8,
+  "balance": 7,
   "choice": "none"
 }, {
   "id": 133,
   "name": "Mountain, Gracelyn",
   "email": "none",
   "classID": "2A",
-  "balance": 22,
+  "balance": 21,
   "choice": "none"
 }, {
   "id": 134,
@@ -941,8 +941,43 @@
   "name": "name",
   "email": "email",
   "classID": "classID",
-  "balance": "balance",
-  "choice": "choice"
+  "balance": null,
+  "choice": "none"
+}, {
+  "id": "id",
+  "name": "name",
+  "email": "email",
+  "classID": "classID",
+  "balance": null,
+  "choice": "none"
+}, {
+  "id": "id",
+  "name": "name",
+  "email": "email",
+  "classID": "classID",
+  "balance": null,
+  "choice": "none"
+}, {
+  "id": "id",
+  "name": "name",
+  "email": "email",
+  "classID": "classID",
+  "balance": null,
+  "choice": "none"
+}, {
+  "id": "id",
+  "name": "name",
+  "email": "email",
+  "classID": "classID",
+  "balance": null,
+  "choice": "none"
+}, {
+  "id": "id",
+  "name": "name",
+  "email": "email",
+  "classID": "classID",
+  "balance": null,
+  "choice": "none"
 }, {
   "id": 135,
   "name": "Nemecek, Eil",
@@ -990,7 +1025,7 @@
   "name": "Nothnagle, Evan",
   "email": "none",
   "classID": "3C",
-  "balance": 85,
+  "balance": 84,
   "choice": "none"
 }, {
   "id": 142,
@@ -1095,14 +1130,14 @@
   "name": "Powell, Haleigh",
   "email": "none",
   "classID": "1A",
-  "balance": 30,
+  "balance": 29,
   "choice": "none"
 }, {
   "id": 157,
   "name": "Powell, Matthew",
   "email": "none",
-  "classID": "Albert",
-  "balance": 9,
+  "classID": "0 - Albert",
+  "balance": 8,
   "choice": "none"
 }, {
   "id": 158,
@@ -1115,14 +1150,14 @@
   "id": 159,
   "name": "Ramsey, Ophelia",
   "email": "none",
-  "classID": "Lang",
-  "balance": 23,
+  "classID": "0 - Lang",
+  "balance": 22,
   "choice": "none"
 }, {
   "id": 160,
   "name": "Rawls, Gauge",
   "email": "none",
-  "classID": "Albert",
+  "classID": "0 - Albert",
   "balance": 0,
   "choice": "none"
 }, {
@@ -1136,8 +1171,8 @@
   "id": 162,
   "name": "Rayfield, Moses",
   "email": "none",
-  "classID": "Albert",
-  "balance": 11,
+  "classID": "0 - Albert",
+  "balance": 10,
   "choice": "none"
 }, {
   "id": 163,
@@ -1171,8 +1206,8 @@
   "id": 167,
   "name": "Riddle, Madilyn",
   "email": "none",
-  "classID": "Knight",
-  "balance": 19,
+  "classID": "0 - Knight",
+  "balance": 18,
   "choice": "none"
 }, {
   "id": 168,
@@ -1192,8 +1227,8 @@
   "id": 170,
   "name": "Salazar, Selena",
   "email": "none",
-  "classID": "Albert",
-  "balance": 11,
+  "classID": "0 - Albert",
+  "balance": 10,
   "choice": "none"
 }, {
   "id": 171,
@@ -1206,15 +1241,15 @@
   "id": 172,
   "name": "Scanlan, Morgan",
   "email": "none",
-  "classID": "Albert",
-  "balance": 12,
+  "classID": "0 - Albert",
+  "balance": 11,
   "choice": "none"
 }, {
   "id": 173,
   "name": "Schneringer, Tommy",
   "email": "none",
-  "classID": "Lang",
-  "balance": 28,
+  "classID": "0 - Lang",
+  "balance": 27,
   "choice": "none"
 }, {
   "id": 174,
@@ -1249,7 +1284,7 @@
   "name": "Strange, Jaxon",
   "email": "none",
   "classID": "1A",
-  "balance": 8,
+  "balance": 7,
   "choice": "none"
 }, {
   "id": 179,
@@ -1270,7 +1305,7 @@
   "name": "Terry, Reagan",
   "email": "none",
   "classID": "2A",
-  "balance": 13,
+  "balance": 12,
   "choice": "none"
 }, {
   "id": 182,
@@ -1333,14 +1368,14 @@
   "name": "Unruh, Emily",
   "email": "none",
   "classID": "3C",
-  "balance": 56,
+  "balance": 55,
   "choice": "none"
 }, {
   "id": 191,
   "name": "Unruh, Maggie",
   "email": "none",
-  "classID": "Knight",
-  "balance": 9,
+  "classID": "0 - Knight",
+  "balance": 8,
   "choice": "none"
 }, {
   "id": 192,
@@ -1360,8 +1395,8 @@
   "id": 194,
   "name": "VanStory, Kaitlyn",
   "email": "none",
-  "classID": "Knight",
-  "balance": 17,
+  "classID": "0 - Knight",
+  "balance": 16,
   "choice": "none"
 }, {
   "id": 195,
@@ -1382,7 +1417,7 @@
   "name": "Vigil, Xovoni",
   "email": "none",
   "classID": "2A",
-  "balance": 34,
+  "balance": 33,
   "choice": "none"
 }, {
   "id": 198,
@@ -1396,7 +1431,7 @@
   "name": "Waugh, Evelyn",
   "email": "none",
   "classID": "1A",
-  "balance": 15,
+  "balance": 14,
   "choice": "none"
 }, {
   "id": 200,
@@ -1430,8 +1465,8 @@
   "id": 204,
   "name": "West, Harper",
   "email": "none",
-  "classID": "Lang",
-  "balance": 35,
+  "classID": "0 - Lang",
+  "balance": 34,
   "choice": "none"
 }, {
   "id": 205,

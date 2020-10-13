@@ -21,7 +21,7 @@
             </ul>
             <ul class="ml-auto mr-4 float-right mb-0">
               <li class="mx-3">
-                <div class="px-4 py-3 rounded-pill cursor-pointer" [ngClass]="student.choice == '' ? 'solid-blue' : ''" (click)="student.choice = ''">
+                <div class="px-4 py-3 rounded-pill cursor-pointer" [ngClass]="student.choice == 'none' ? 'solid-blue' : ''" (click)="student.choice = ''">
                   <h3 class="text-white mb-0">None</h3>
                 </div>
               </li>

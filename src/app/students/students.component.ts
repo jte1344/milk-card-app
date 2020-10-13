@@ -96,8 +96,8 @@ export class StudentsComponent implements OnInit {
   }
 
   saveStudents(){
-    //console.log(this.students);
 
+    console.log(this.students);
     this.adminService.postStudents(this.currentUser, this.students).pipe(first())
       .subscribe(
         data => {
