@@ -22,18 +22,6 @@ const jwtExpirySeconds = 300
 const cors = require('cors');
 app.use(cors());
 
-app.use(function(req, res, next) {
-  //console.log(req.headers)
-  //console.log(req.secure)
-  if (req.secure || req.headers.host == 'localhost:3000') {
-    next()
-  } else {
-    console.log('redirecting to https');
-    res.redirect('https://' + req.headers.host + req.url);
-  }
-})
-app.enable('trust proxy');
-
 //connect to mongoDB
 var url = process.env.MONGOLAB_URI;
 
