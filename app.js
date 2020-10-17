@@ -121,6 +121,10 @@ app.use(
 const users = require('./store/users.json');
 app.post('/api/authenticate', (req, res) => {
 
+  console.log("Authenticating user:");
+  console.log(req.body.username);
+  console.log(req.body.password);
+
   const {
     username,
     password
