@@ -57,16 +57,21 @@ export class EditStudentComponent implements OnInit {
   onSubmit() {
 
     this.currStudent.balance = parseInt(this.currStudent.balance)
-    this.adminService.postStudents(this.currentUser, this.currStudent)
+    this.adminService.postStudents(this.currentUser, this.students)
       .pipe(first())
       .subscribe(
         data => {
           this.response;
-          this.router.navigate(['/students']);
+          this.redirectTo('/');
         },
         error => {
           this.error = error;
         });
+  }
+
+  redirectTo(uri: string) {
+    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() =>
+      this.router.navigate([uri]));
   }
 
 }

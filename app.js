@@ -201,13 +201,10 @@ app.post('/api/postStudents', (req, res) => {
     if (!classroomImport.includes(studentImport[i].classID)) {
       if (!(studentImport[i].classID == 'classID' || studentImport[i].classID == 'none')) {
         classroomImport.push(studentImport[i].classID);
-      } else {
-        console.log(studentImport[i].classID);
       }
     }
   }
   classroomImport.sort();
-  console.log(classroomImport);
   var classroomFinal = [];
   for (var i = 0; i < classroomImport.length; i++) {
     classroomFinal[i] = {
@@ -215,8 +212,6 @@ app.post('/api/postStudents', (req, res) => {
       teacherName: classroomImport[i]
     }
   }
-  console.log(JSON.stringify(classroomFinal));
-
 
   try {
     fs.writeFileSync('./store/classrooms.json', JSON.stringify(classroomFinal));
@@ -225,7 +220,7 @@ app.post('/api/postStudents', (req, res) => {
   }
 
 
-  res.json(students);
+  res.json({status: 200});
 });
 
 app.get('/api/students', (req, res) => {
