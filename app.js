@@ -5,6 +5,7 @@ var env = process.env.NODE_ENV || 'developement';
 var fs = require('fs')
 var path = require('path');
 var bodyParser = require('body-parser');
+var logger = require('morgan');
 var cron = require('node-cron');
 
 //local data store
