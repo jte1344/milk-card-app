@@ -5,8 +5,6 @@ var env = process.env.NODE_ENV || 'developement';
 var fs = require('fs')
 var path = require('path');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-var logger = require('morgan');
 var cron = require('node-cron');
 
 //local data store
@@ -22,22 +20,7 @@ const jwtExpirySeconds = 300
 const cors = require('cors');
 app.use(cors());
 
-//connect to mongoDB
-var url = process.env.MONGOLAB_URI;
 
-mongoose.connect(url || 'mongodb://localhost/cyperdesigns', {
-    useCreateIndex: true,
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-  .then(connection => {
-    console.log('Connected to MongoDB');
-  })
-  .catch(error => {
-    console.log(error.message);
-  })
-
-var db = mongoose.connection;
 
 app.set('view engine', 'ejs');
 
