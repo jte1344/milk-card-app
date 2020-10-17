@@ -154,6 +154,23 @@ app.post('/api/authenticate', (req, res) => {
   })
 });
 
+app.post('/api/addStudent', (req, res) => {
+  console.log(req.body);
+  var currStudent = req.body.data;
+  var genNewID = students[students.length - 1].id + 1;
+  currStudent.id = genNewID;
+  console.log(currStudent);
+  students.push(currStudent);
+  console.log(students[students.length - 1]);
+
+  //save to store
+  try {
+    fs.writeFileSync('./store/students.json', JSON.stringify(students));
+  } catch (err) {
+    console.error(err)
+  }
+  res.json({status: 200});
+})
 
 
 app.post('/api/postStudents', (req, res) => {
@@ -162,8 +179,17 @@ app.post('/api/postStudents', (req, res) => {
 
   console.log("Saving students to json");
   var studentImport = req.body.data;
+  var finalStudentList = [];
+  //removes basic student object from list generated on front end
+  for (var i = 0; i < studentImport.length; i++) {
+    if (studentImport[i].id === "id") {
+      console.log("Found an error");
+    } else {
+      finalStudentList.push(studentImport[i]);
+    }
+  }
   try {
-    fs.writeFileSync('./store/students.json', JSON.stringify(studentImport));
+    fs.writeFileSync('./store/students.json', JSON.stringify(finalStudentList));
   } catch (err) {
     console.error(err)
   }

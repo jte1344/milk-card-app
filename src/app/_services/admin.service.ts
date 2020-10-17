@@ -20,6 +20,9 @@ export class AdminService {
   getAllStudents(currentUser) {
     return this.http.get<Student[]>(`${environment.apiUrl}/api/getStudents`);
   }
+  addStudent(currentUser, data) {
+    return this.http.post<any>(`${environment.apiUrl}/api/addStudent`, { currentUser, data });
+  }
   postStudents(currentUser, data) {
     return this.http.post<any>(`${environment.apiUrl}/api/postStudents`, { currentUser, data });
   }

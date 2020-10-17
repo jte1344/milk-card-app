@@ -21,6 +21,8 @@ import { DailyDrinkOrderComponent } from './daily-drink-order/daily-drink-order.
 import { StudentsComponent } from './students/students.component';
 import { ClassesComponent } from './classes/classes.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
+import { AddStudentComponent } from './add-student/add-student.component';
+import { DeleteStudentComponent } from './delete-student/delete-student.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { EditStudentComponent } from './edit-student/edit-student.component';
     StudentsComponent,
     ClassesComponent,
     EditStudentComponent,
+    AddStudentComponent,
+    DeleteStudentComponent,
   ],
   imports: [
     BrowserModule,

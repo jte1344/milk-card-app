@@ -7,12 +7,13 @@ import { AdminService } from '../_services/admin.service';
 import { Student } from '../_models/student';
 import { User } from '../_models/user';
 
+
 @Component({
-  selector: 'app-edit-student',
-  templateUrl: './edit-student.component.html',
-  styleUrls: ['./edit-student.component.scss']
+  selector: 'app-add-student',
+  templateUrl: './add-student.component.html',
+  styleUrls: ['./add-student.component.scss']
 })
-export class EditStudentComponent implements OnInit {
+export class AddStudentComponent implements OnInit {
 
   currentUser: User;
   students: any;
@@ -34,30 +35,20 @@ export class EditStudentComponent implements OnInit {
 
   ngOnInit(): void {
     this.currStudent = {
-      "id": "id",
-      "name": "name",
-      "email": "email",
-      "classID": "classID",
-      "balance": "balance",
-      "choice": "choice"
+      "id": "",
+      "name": "",
+      "email": "",
+      "classID": "",
+      "balance": "",
+      "choice": ""
     }
-    this.id = this.route.snapshot.paramMap.get("id");
-    this.adminService.getAllStudents(this.currentUser).pipe(first()).subscribe(response => {
-      this.students = response;
-      this.students.sort(function(a, b) {
-        a = a.name.toLowerCase();
-        b = b.name.toLowerCase();
-        return a < b ? -1 : a > b ? 1 : 0;
-      });
-      this.currStudent = this.students.find(x => x.id == this.id);
-      console.log(this.currStudent);
-    });
   }
 
   onSubmit() {
 
-    this.currStudent.balance = parseInt(this.currStudent.balance)
-    this.adminService.postStudents(this.currentUser, this.currStudent)
+
+    console.log(this.currStudent);
+    this.adminService.addStudent(this.currentUser, this.currStudent)
       .pipe(first())
       .subscribe(
         data => {
