@@ -2,16 +2,17 @@ var createError = require('http-errors');
 var express = require('express');
 var app = express();
 var env = process.env.NODE_ENV || 'developement';
-var fs = require('fs')
 var path = require('path');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 var cron = require('node-cron');
 
 //local data store
-const students = require('./store/students.json');
-const classes = require('./store/classrooms.json');
-const daily = require('./store/daily.json');
+const low = require('lowdb');
+const FileSync = require('lowdb/adapters/FileSync');
+const adapter = new FileSync('store/db.json');
+const db = low(adapter);
+
 
 const jwt = require("jsonwebtoken");
 const jwtKey = "chyro_is_in_the_5th"
@@ -32,6 +33,11 @@ app.use(bodyParser.urlencoded({
   extended: false
 }))
 
+app.use(
+  express.static(path.join(__dirname, 'dist/milkCardApp'), {
+    etag: false
+  })
+);
 
 // setup cron job
 
@@ -39,29 +45,28 @@ app.use(bodyParser.urlencoded({
 
 cron.schedule("00 00 00 * * *", () => {
 
-  var data = {
-    "data": []
-  };
-  try {
-    fs.writeFileSync('./store/daily.json', JSON.stringify(data))
-    console.log("Clearing daily drinks");
-  } catch (err) {
-    console.error(err)
-  }
+  //get current daily order
+  var dailyData = db.getState().daily;
 
-  for (var i = 0; i < students.length; i++) {
-    if (students[i].choice !== "none") {
-      students[i].balance--;
-      students[i].choice = "none";
+  //get current daily order
+  var studentData = db.getState().students;
+  console.log(studentData);
+
+  //clear data
+  dailyData = [];
+
+  //writeback
+  db.set('daily', dailyData).write();
+
+  for (var i = 0; i < studentData.length; i++) {
+    if (studentData[i].choice == "milk" || studentData[i].choice == "water" || studentData[i].choice == "chocoMilk") {
+      studentData[i].balance--;
+      studentData[i].choice = "none";
+    } else {
+      studentData[i].choice = "none";
     }
   }
-  try {
-    fs.writeFileSync('./store/students.json', JSON.stringify(students));
-    return true;
-  } catch (err) {
-    console.error(err)
-    return false;
-  }
+  db.set('students', studentData).write();
 
 })
 
@@ -71,16 +76,11 @@ cron.schedule("00 00 00 * * *", () => {
 //  (S M H D/month M D/week)
 
 const setStudentDrink = (id, drink) => {
-  var currStudent = students.find(x => x.id == id);
+  var studentData = db.getState().students;
+  var currStudent = studentData.find(x => x.id == id);
   currStudent.choice = drink;
-  var path = './store/students.json';
-  try {
-    fs.writeFileSync(path, JSON.stringify(students));
-    return true;
-  } catch (err) {
-    console.error(err)
-    return false;
-  }
+  db.set('students', studentData).write();
+  return true;
 }
 
 const verifyUser = (userToken) => {
@@ -110,24 +110,10 @@ const verifyUser = (userToken) => {
   return payload;
 }
 
-
-app.use(
-  express.static(path.join(__dirname, 'dist/milkCardApp'), {
-    etag: false
-  })
-);
-
-
-const users = require('./store/users.json');
 app.post('/api/authenticate', (req, res) => {
-
-  const {
-    username,
-    password
-  } = req.body
-
+  const users = db.getState().users;
+  const {username, password} = req.body;
   const user = users.find(x => x.username === username && x.password === password);
-
   if (!username || !password || !user) {
     // return 401 error is username or password doesn't exist, or if password does
     // not match the password in our records
@@ -155,47 +141,32 @@ app.post('/api/authenticate', (req, res) => {
 });
 
 app.post('/api/addStudent', (req, res) => {
-  console.log(req.body);
+  var studentData = db.getState().students;
   var currStudent = req.body.data;
-  var genNewID = students[students.length - 1].id + 1;
+  var genNewID = studentData[studentData.length - 1].id + 1;
   currStudent.id = genNewID;
-  console.log(currStudent);
-  students.push(currStudent);
-  console.log(students[students.length - 1]);
-
-  //save to store
-  try {
-    fs.writeFileSync('./store/students.json', JSON.stringify(students));
-  } catch (err) {
-    console.error(err)
-  }
-  res.json({status: 200});
+  studentData.push(currStudent);
+  db.set('students', studentData).write();
+  res.json({
+    status: 200
+  });
 })
 
 
 app.post('/api/postStudents', (req, res) => {
-  //verifyUser(req.query.token);
 
-
-  console.log("Saving students to json");
   var studentImport = req.body.data;
   var finalStudentList = [];
   //removes basic student object from list generated on front end
   for (var i = 0; i < studentImport.length; i++) {
     if (studentImport[i].id === "id") {
-      console.log("Found an error");
+      console.log("Removing generic id entry");
     } else {
       finalStudentList.push(studentImport[i]);
     }
   }
-  try {
-    fs.writeFileSync('./store/students.json', JSON.stringify(finalStudentList));
-  } catch (err) {
-    console.error(err)
-  }
+  db.set('students', finalStudentList).write();
 
-
-  console.log("Finding classes");
   var classroomImport = [];
   for (var i = 0; i < studentImport.length; i++) {
     if (!classroomImport.includes(studentImport[i].classID)) {
@@ -212,57 +183,44 @@ app.post('/api/postStudents', (req, res) => {
       teacherName: classroomImport[i]
     }
   }
+  db.set('classrooms', classroomFinal).write();
 
-  try {
-    fs.writeFileSync('./store/classrooms.json', JSON.stringify(classroomFinal));
-  } catch (err) {
-    console.error(err)
-  }
-
-
-  res.json({status: 200});
+  res.json({
+    status: 200
+  });
 });
 
 app.get('/api/students', (req, res) => {
 
-  //verifyUser(req.query.token);
+  var classroomData = db.getState().classrooms;
+  var studentData = db.getState().students;
 
-  var currClass = classes.find(x => x.id == req.query.classID)
-
+  var currClass = classroomData.find(x => x.id == req.query.classID)
   if (req.query.classID) {
-    res.json(students.filter(x => x.classID == currClass.teacherName))
+    res.json(studentData.filter(x => x.classID == currClass.teacherName))
   } else {
-    res.json(students);
+    res.json(studentData);
   }
-
 });
 
 app.get('/api/classes', (req, res) => {
-
-  //verifyUser(req.query.token);
-
+  var classroomData = db.getState().classrooms;
   if (req.query.classID) {
-    res.json(classes.find(x => x.id == req.query.classID))
+    res.json(classroomData.find(x => x.id == req.query.classID))
   } else {
-    res.json(classes);
+    res.json(classroomData);
   }
 });
 
 app.get('/api/getStudents', (req, res) => {
-
-  //verifyUser(req.query.token);
-  console.log("Getting all students");
-  res.json(students);
-
+  res.json(db.getState().students);
 });
 
 app.post('/api/postOrder', (req, res) => {
-  //verifyUser(req.query.token);
-  var classStudent = req.body.students;
+  //get daily db data
+  var dailyData = db.getState().daily;
 
-  for (var i = 0; i < classStudent.length; i++) {
-    classStudent[i]
-  }
+  var classStudent = req.body.students;
 
   var output = {
     classroom: classStudent[0].classID,
@@ -274,14 +232,14 @@ app.post('/api/postOrder', (req, res) => {
     }
   }
 
-
-  if (daily.data.find(x => x.classroom == output.classroom)) {
-    daily.data.splice(daily.data.findIndex(x => x.classroom == output.classroom), 1)
+  //find if class already submitted and remove it
+  if (dailyData.find(x => x.classroom == output.classroom)) {
+    dailyData.splice(dailyData.findIndex(x => x.classroom == output.classroom), 1)
   }
+
+  //loop through each student
   for (var i = 0; i < classStudent.length; i++) {
-    if (classStudent[i].choice === '') {
-      console.log("Nothing to change");
-    } else if (classStudent[i].choice === 'milk') {
+    if (classStudent[i].choice === 'milk') {
       var x = setStudentDrink(classStudent[i].id, 'milk')
       if (x === true) {
         output.students.push({
@@ -290,7 +248,7 @@ app.post('/api/postOrder', (req, res) => {
         })
         output.drinks.milk++;
       } else {
-        console.log("Unable to add drink to order");
+        console.log("Unable to add milk drink to order");
       }
     } else if (classStudent[i].choice === 'water') {
       var x = setStudentDrink(classStudent[i].id, 'water')
@@ -301,7 +259,7 @@ app.post('/api/postOrder', (req, res) => {
         })
         output.drinks.water++;
       } else {
-        console.log("Unable to add drink to order");
+        console.log("Unable to add water drink to order");
       }
     } else if (classStudent[i].choice === 'chocoMilk') {
       var x = setStudentDrink(classStudent[i].id, 'chocoMilk')
@@ -312,23 +270,17 @@ app.post('/api/postOrder', (req, res) => {
         })
         output.drinks.chocoMilk++;
       } else {
-        console.log("Unable to add drink to order");
+        console.log("Unable to add chocoMilk drink to order");
       }
     } else {
-      console.log("Something went wrong");
+      console.log("Nothing to change");
     }
   }
-  console.log(daily);
-  daily.data.push(output)
-  console.log("Data: ");
-  console.log(daily);
-  var path = './store/daily.json';
-  try {
-    fs.writeFileSync(path, JSON.stringify(daily))
-    console.log("Adding to daily drinks");
-  } catch (err) {
-    console.error(err)
-  }
+  dailyData.push(output);
+
+  //save to daily db
+  db.set('daily', dailyData).write();
+
   res.json({
     res: "success",
     msg: "Order Recieved"
@@ -337,36 +289,34 @@ app.post('/api/postOrder', (req, res) => {
 });
 
 app.get('/api/drinkOrder', (req, res) => {
-  //verifyUser(req.query.token);
-  res.json(daily);
+  res.json(db.getState().daily);
 });
 
 
 app.get('/test', (req, res) => {
   /////////////////////////////////////////////////
-  var data = {
-    "data": []
-  };
-  try {
-    fs.writeFileSync('./store/daily.json', JSON.stringify(data))
-    console.log("Clearing daily drinks");
-  } catch (err) {
-    console.error(err)
-  }
+  //get current daily order
+  var dailyData = db.getState().daily;
 
-  for (var i = 0; i < students.length; i++) {
-    if (students[i].choice !== "none") {
-      students[i].balance--;
-      students[i].choice = "none";
+  //get current daily order
+  var studentData = db.getState().students;
+  console.log(studentData);
+
+  //clear data
+  dailyData = [];
+
+  //writeback
+  db.set('daily', dailyData).write();
+
+  for (var i = 0; i < studentData.length; i++) {
+    if (studentData[i].choice == "milk" || studentData[i].choice == "water" || studentData[i].choice == "chocoMilk") {
+      studentData[i].balance--;
+      studentData[i].choice = "none";
+    } else {
+      studentData[i].choice = "none";
     }
   }
-  try {
-    fs.writeFileSync('./store/students.json', JSON.stringify(students));
-    return true;
-  } catch (err) {
-    console.error(err)
-    return false;
-  }
+  db.set('students', studentData).write();
   /////////////////////////////////////////////////
   res.send("Tests run.")
 })

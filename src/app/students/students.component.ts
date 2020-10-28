@@ -69,7 +69,7 @@ export class StudentsComponent implements OnInit {
     XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
 
     /* save to file */
-    XLSX.writeFile(wb, `studentMilkCards_${this.day}-${this.month}-${this.year}.xlsx`);
+    XLSX.writeFile(wb, `studentMilkCards_${this.month}-${this.day}-${this.year}.xlsx`);
 
   }
 
@@ -104,6 +104,8 @@ export class StudentsComponent implements OnInit {
           this.response = data;
         });
   }
+
+
 
 
 }

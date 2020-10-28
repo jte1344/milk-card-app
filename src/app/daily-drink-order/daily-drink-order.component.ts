@@ -20,6 +20,18 @@ export class DailyDrinkOrderComponent implements OnInit {
     timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     weekday: "long"
   });
+  day = new Date().toLocaleString("en-US", {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    day: "2-digit"
+  })
+  month = new Date().toLocaleString("en-US", {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    month: "2-digit"
+  })
+  year = new Date().toLocaleString("en-US", {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    year: "2-digit"
+  })
 
   constructor(
     private authenticationService: AuthenticationService,
@@ -29,14 +41,16 @@ export class DailyDrinkOrderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.adminService.getDrinkOrder(this.currentUser).pipe(first()).subscribe(drinkOrders => {
+
+    this.adminService.getDrinkOrder(this.currentUser).subscribe(drinkOrders => {
       this.loading = false;
-      this.orders = drinkOrders.data;
+      this.orders = drinkOrders;
       this.orders.sort(function(a, b) {
         a = a.classroom.toLowerCase();
         b = b.classroom.toLowerCase();
         return a < b ? -1 : a > b ? 1 : 0;
       });
+      console.log(this.orders);
 
     });
   }

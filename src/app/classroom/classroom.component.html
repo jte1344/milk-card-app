@@ -21,7 +21,7 @@
             </ul>
             <ul class="ml-auto mr-4 float-right mb-0">
               <li class="mx-3">
-                <div class="px-4 py-3 rounded-pill cursor-pointer" [ngClass]="student.choice == 'none' ? 'solid-blue' : ''" (click)="student.choice = ''">
+                <div class="px-4 py-3 rounded-pill cursor-pointer" [ngClass]="student.choice == 'none' ? 'solid-blue' : ''" (click)="student.choice = 'none'">
                   <h3 class="text-white mb-0">None</h3>
                 </div>
               </li>
@@ -35,6 +35,7 @@
                   <h3 class="text-white mb-0">Water</h3>
                 </div>
               </li>
+              <!--!!!!!!!!!!!  DONT FORGET TO CHANGE DAILY DRINK DAY (daily-drink-order.component.html) TO NEW DAY IF YOU CHANGE FRIDAY  !!!!!!!!!!-->
               <li *ngIf="dayName === 'Friday'" class="mx-3">
                 <div class="px-4 py-3 rounded-pill cursor-pointer" [ngClass]="student.choice == 'chocoMilk' ? 'solid-blue' : ''" (click)="student.choice = 'chocoMilk'">
                   <h3 class="text-white mb-0">Chocolate Milk</h3>

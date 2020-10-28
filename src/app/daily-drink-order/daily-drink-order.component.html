@@ -2,8 +2,9 @@
   <div class="" id="allClasses">
     <div *ngFor="let order of orders" class=" my-5 p-4 page-break">
       <h1 class="">{{ order.classroom }}</h1>
+      <h2>{{month}}/{{day}}/{{year}}</h2>
       <hr>
-      <table class="w-100">
+      <table *ngIf="order.students.length > 0" class="w-100">
         <th class="border-bottom w-50">
           <h2>Name</h2>
         </th>
@@ -19,10 +20,10 @@
           </td>
         </tr>
       </table>
+      <h4 *ngIf="order.students.length < 1">No students ordered drinks from this class today. (Order has been <span class="text-success">submitted successfully</span>)</h4>
       <hr>
       <h1>Milk total: {{ order.drinks.milk }}</h1>
       <h1>Water total: {{ order.drinks.water }}</h1>
-      <h1>Chocolate Milk total: {{ order.drinks.chocoMilk }}</h1>
       <h1 *ngIf="dayName === 'Friday'">Chocolate Milk: {{ order.drinks.chocoMilk }}</h1>
     </div>
   </div>
