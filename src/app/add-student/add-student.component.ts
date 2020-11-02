@@ -40,7 +40,7 @@ export class AddStudentComponent implements OnInit {
       "email": "",
       "classID": "",
       "balance": "",
-      "choice": ""
+      "choice": "none"
     }
   }
 

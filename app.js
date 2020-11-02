@@ -143,8 +143,15 @@ app.post('/api/authenticate', (req, res) => {
 app.post('/api/addStudent', (req, res) => {
   var studentData = db.getState().students;
   var currStudent = req.body.data;
-  var genNewID = studentData[studentData.length - 1].id + 1;
+  var largestID = 0;
+  for (var i = 0; i < studentData.length; i++) {
+    if (studentData[i].id > largestID) {
+      largestID = studentData[i].id
+    }
+  }
+  var genNewID = largestID + 1;
   currStudent.id = genNewID;
+
   studentData.push(currStudent);
   db.set('students', studentData).write();
   res.json({
