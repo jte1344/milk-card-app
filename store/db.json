@@ -1,5 +1,63 @@
 {
-  "daily": [],
+  "daily": [
+    {
+      "classroom": "0 - Knight",
+      "students": [],
+      "drinks": {
+        "milk": 0,
+        "water": 0,
+        "chocoMilk": 0
+      }
+    },
+    {
+      "classroom": "Kessellll",
+      "students": [
+        {
+          "name": "Cyper Designs LLC",
+          "drink": "milk"
+        }
+      ],
+      "drinks": {
+        "milk": 1,
+        "water": 0,
+        "chocoMilk": 0
+      }
+    },
+    {
+      "classroom": "0 - Albert",
+      "students": [
+        {
+          "name": "Cherry, Aleena",
+          "drink": "chocoMilk"
+        },
+        {
+          "name": "May, Sutton",
+          "drink": "chocoMilk"
+        },
+        {
+          "name": "Powell, Matthew",
+          "drink": "chocoMilk"
+        },
+        {
+          "name": "Rayfield, Moses",
+          "drink": "chocoMilk"
+        },
+        {
+          "name": "Salazar, Selena",
+          "drink": "chocoMilk"
+        },
+        {
+          "name": "Scanlan, Morgan",
+          "drink": "chocoMilk"
+        }
+      ],
+      "drinks": {
+        "milk": 0,
+        "water": 0,
+        "chocoMilk": 6
+      }
+    }
+  ],
   "users": [
     {
       "id": 1,
@@ -23,7 +81,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 40,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 2,
@@ -31,7 +90,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 3,
@@ -39,7 +99,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 32,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 4,
@@ -47,7 +108,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 5,
@@ -55,7 +117,8 @@
       "email": "none",
       "classID": "3A",
       "balance": 23,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 6,
@@ -63,7 +126,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 7,
@@ -71,7 +135,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 8,
@@ -79,7 +144,8 @@
       "email": "none",
       "classID": "3A",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 9,
@@ -87,7 +153,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 10,
@@ -95,7 +162,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 11,
@@ -103,7 +171,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 5,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 12,
@@ -111,7 +180,8 @@
       "email": "none",
       "classID": "4A",
       "balance": 25,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 13,
@@ -119,7 +189,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 15,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 14,
@@ -127,7 +198,8 @@
       "email": "none",
       "classID": "none",
       "balance": 33,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 15,
@@ -135,7 +207,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 33,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 16,
@@ -143,7 +216,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 35,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 17,
@@ -151,7 +225,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 29,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 18,
@@ -159,7 +234,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 19,
@@ -167,7 +243,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 20,
@@ -175,7 +252,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 35,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 21,
@@ -183,7 +261,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 36,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 22,
@@ -191,7 +270,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 23,
@@ -199,7 +279,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 24,
@@ -207,7 +288,8 @@
       "email": "none",
       "classID": "5B",
       "balance": 42,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 25,
@@ -215,7 +297,8 @@
       "email": "none",
       "classID": "1B",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 26,
@@ -223,7 +306,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 25,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 27,
@@ -231,7 +315,8 @@
       "email": "none",
       "classID": "4A",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 28,
@@ -239,7 +324,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 38,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 29,
@@ -247,7 +333,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 34,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 30,
@@ -255,7 +342,8 @@
       "email": "none",
       "classID": "none",
       "balance": 14,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 31,
@@ -263,7 +351,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 31,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 32,
@@ -271,7 +360,8 @@
       "email": "none",
       "classID": "0 - Knight",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 33,
@@ -279,7 +369,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 34,
@@ -287,7 +378,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 19,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 35,
@@ -295,7 +387,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 5,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 36,
@@ -303,7 +396,8 @@
       "email": "none",
       "classID": "5B",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 37,
@@ -311,7 +405,8 @@
       "email": "none",
       "classID": "7th",
       "balance": -2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 38,
@@ -319,7 +414,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 4,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 210,
@@ -335,7 +431,17 @@
       "email": "jake@cyperdesigns.com",
       "classID": "4BB",
       "balance": "1",
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
+    },
+    {
+      "id": 215,
+      "name": "Cyper Designs LLC",
+      "email": "jake@cyperdesigns.com",
+      "classID": "Kessellll",
+      "balance": 131465,
+      "choice": "milk",
+      "comment": "Stupid boiiiii"
     },
     {
       "id": 39,
@@ -343,7 +449,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 65,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 40,
@@ -351,7 +458,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 33,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 41,
@@ -359,7 +467,8 @@
       "email": "none",
       "classID": "4A",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 42,
@@ -367,7 +476,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 43,
@@ -375,7 +485,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 44,
@@ -383,7 +494,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 45,
@@ -391,7 +503,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 46,
@@ -399,7 +512,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 13,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 47,
@@ -407,7 +521,8 @@
       "email": "none",
       "classID": "3A",
       "balance": 3,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 48,
@@ -415,7 +530,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 57,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 49,
@@ -423,7 +539,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 50,
@@ -431,7 +548,8 @@
       "email": "none",
       "classID": "none",
       "balance": 39,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 51,
@@ -439,7 +557,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 47,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 52,
@@ -447,7 +566,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 53,
@@ -455,7 +575,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 54,
@@ -463,7 +584,8 @@
       "email": "none",
       "classID": "none",
       "balance": -1,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 55,
@@ -471,7 +593,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 1,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 56,
@@ -479,7 +602,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 57,
@@ -487,7 +611,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 25,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 58,
@@ -495,7 +620,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 12,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 59,
@@ -503,7 +629,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 60,
@@ -511,7 +638,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 61,
@@ -519,7 +647,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 20,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 62,
@@ -527,7 +656,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 63,
@@ -535,7 +665,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 4,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 64,
@@ -543,7 +674,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 65,
@@ -551,7 +683,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 66,
@@ -559,7 +692,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 67,
@@ -567,7 +701,8 @@
       "email": "none",
       "classID": "1A",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 68,
@@ -575,7 +710,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 69,
@@ -583,7 +719,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 23,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 71,
@@ -591,7 +728,8 @@
       "email": "none",
       "classID": "0 - Knight",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 70,
@@ -599,7 +737,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 72,
@@ -607,7 +746,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 73,
@@ -615,7 +755,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 74,
@@ -623,7 +764,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 65,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 75,
@@ -631,7 +773,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 9,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 76,
@@ -639,7 +782,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 9,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 77,
@@ -647,7 +791,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 3,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 78,
@@ -655,7 +800,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 79,
@@ -663,7 +809,8 @@
       "email": "none",
       "classID": "5B",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 80,
@@ -671,7 +818,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 40,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 81,
@@ -679,7 +827,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 82,
@@ -687,7 +836,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 55,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 83,
@@ -695,7 +845,8 @@
       "email": "none",
       "classID": "3A",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 84,
@@ -703,7 +854,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 11,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 85,
@@ -711,7 +863,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 29,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 86,
@@ -719,7 +872,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 87,
@@ -727,7 +881,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 17,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 88,
@@ -735,7 +890,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 20,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 89,
@@ -743,7 +899,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 90,
@@ -751,7 +908,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 88,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 91,
@@ -759,7 +917,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 40,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 92,
@@ -767,7 +926,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 209,
@@ -778,12 +938,22 @@
       "choice": ""
     },
     {
+      "id": 216,
+      "name": "Jake Tyler Engelen",
+      "email": "jte1544@gmail.com",
+      "classID": "4B7",
+      "balance": 39000,
+      "choice": "none",
+      "comment": ""
+    },
+    {
       "id": 93,
       "name": "Jugert, Lily",
       "email": "none",
       "classID": "1A",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 94,
@@ -791,7 +961,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 14,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 95,
@@ -799,7 +970,8 @@
       "email": "none",
       "classID": "4A",
       "balance": 2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 96,
@@ -807,7 +979,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 97,
@@ -815,7 +988,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 98,
@@ -823,7 +997,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 99,
@@ -831,7 +1006,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 100,
@@ -839,7 +1015,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 41,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 101,
@@ -847,7 +1024,8 @@
       "email": "none",
       "classID": "none",
       "balance": 46,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 102,
@@ -855,7 +1033,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 41,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 103,
@@ -863,7 +1042,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 38,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 104,
@@ -871,7 +1051,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 105,
@@ -879,7 +1060,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 9,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 106,
@@ -887,7 +1069,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 26,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 107,
@@ -895,7 +1078,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 26,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 108,
@@ -903,7 +1087,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 109,
@@ -911,7 +1096,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 21,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 110,
@@ -919,7 +1105,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 1,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 111,
@@ -927,7 +1114,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 20,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 112,
@@ -935,7 +1123,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 32,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 113,
@@ -943,7 +1132,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 27,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 114,
@@ -951,7 +1141,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 42,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 115,
@@ -959,7 +1150,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 26,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 116,
@@ -967,7 +1159,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 117,
@@ -975,7 +1168,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 54,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 118,
@@ -983,7 +1177,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 23,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 119,
@@ -991,7 +1186,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 11,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 120,
@@ -999,7 +1195,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 5,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 121,
@@ -1007,7 +1204,8 @@
       "email": "none",
       "classID": "1B",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 122,
@@ -1015,7 +1213,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 39,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 123,
@@ -1023,7 +1222,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 124,
@@ -1031,7 +1231,8 @@
       "email": "none",
       "classID": "none",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 125,
@@ -1039,7 +1240,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 126,
@@ -1047,7 +1249,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 6,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 127,
@@ -1055,7 +1258,8 @@
       "email": "none",
       "classID": "5B",
       "balance": 3,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 128,
@@ -1063,7 +1267,8 @@
       "email": "none",
       "classID": "none",
       "balance": 23,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 129,
@@ -1071,7 +1276,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 42,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 130,
@@ -1079,7 +1285,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 10,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 131,
@@ -1087,7 +1294,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 25,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 132,
@@ -1095,7 +1303,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 133,
@@ -1103,7 +1312,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 21,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 134,
@@ -1111,7 +1321,8 @@
       "email": "none",
       "classID": "1C",
       "balance": 52,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 135,
@@ -1119,7 +1330,8 @@
       "email": "none",
       "classID": "none",
       "balance": -2,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 136,
@@ -1127,7 +1339,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 137,
@@ -1135,7 +1348,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 39,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 138,
@@ -1143,7 +1357,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 139,
@@ -1151,7 +1366,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 140,
@@ -1159,7 +1375,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 141,
@@ -1167,7 +1384,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 84,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 142,
@@ -1175,7 +1393,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 143,
@@ -1183,7 +1402,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 4,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 144,
@@ -1191,7 +1411,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 146,
@@ -1199,7 +1420,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 145,
@@ -1207,7 +1429,8 @@
       "email": "none",
       "classID": "5B",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 147,
@@ -1215,7 +1438,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 27,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 148,
@@ -1223,7 +1447,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 33,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 149,
@@ -1231,7 +1456,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 35,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 150,
@@ -1239,7 +1465,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 16,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 151,
@@ -1247,7 +1474,8 @@
       "email": "none",
       "classID": "none",
       "balance": 35,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 152,
@@ -1255,7 +1483,8 @@
       "email": "none",
       "classID": "none",
       "balance": 17,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 153,
@@ -1263,7 +1492,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 24,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 154,
@@ -1271,7 +1501,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 16,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 155,
@@ -1279,7 +1510,8 @@
       "email": "none",
       "classID": "none",
       "balance": 16,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 156,
@@ -1287,7 +1519,8 @@
       "email": "none",
       "classID": "1A",
       "balance": 29,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 157,
@@ -1295,7 +1528,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 8,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 158,
@@ -1303,7 +1537,8 @@
       "email": "none",
       "classID": "5C",
       "balance": 69,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 159,
@@ -1311,7 +1546,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 160,
@@ -1319,7 +1555,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 161,
@@ -1327,7 +1564,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 29,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 162,
@@ -1335,7 +1573,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 10,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 163,
@@ -1343,7 +1582,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 164,
@@ -1351,7 +1591,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 17,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 165,
@@ -1359,7 +1600,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 22,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 166,
@@ -1367,7 +1609,8 @@
       "email": "none",
       "classID": "none",
       "balance": 45,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 167,
@@ -1375,7 +1618,8 @@
       "email": "none",
       "classID": "0 - Knight",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 168,
@@ -1383,7 +1627,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 13,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 169,
@@ -1391,7 +1636,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 10,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 170,
@@ -1399,7 +1645,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 10,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 171,
@@ -1407,7 +1654,8 @@
       "email": "none",
       "classID": "2C",
       "balance": 38,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 172,
@@ -1415,7 +1663,8 @@
       "email": "none",
       "classID": "0 - Albert",
       "balance": 11,
-      "choice": "none"
+      "choice": "chocoMilk",
+      "comment": ""
     },
     {
       "id": 173,
@@ -1423,7 +1672,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 27,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 174,
@@ -1431,7 +1681,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 175,
@@ -1439,7 +1690,8 @@
       "email": "none",
       "classID": "7th",
       "balance": 39,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 176,
@@ -1447,7 +1699,8 @@
       "email": "none",
       "classID": "1B",
       "balance": 37,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 177,
@@ -1455,7 +1708,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 178,
@@ -1463,7 +1717,8 @@
       "email": "none",
       "classID": "1A",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 179,
@@ -1471,7 +1726,8 @@
       "email": "none",
       "classID": "none",
       "balance": 28,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 180,
@@ -1479,7 +1735,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 4,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 181,
@@ -1487,7 +1744,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 12,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 182,
@@ -1495,7 +1753,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 15,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 183,
@@ -1503,7 +1762,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 184,
@@ -1511,7 +1771,8 @@
       "email": "none",
       "classID": "Bennett",
       "balance": 31,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 185,
@@ -1519,7 +1780,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 29,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 186,
@@ -1527,7 +1789,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 35,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 187,
@@ -1535,7 +1798,8 @@
       "email": "none",
       "classID": "4C",
       "balance": 10,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 188,
@@ -1543,7 +1807,8 @@
       "email": "none",
       "classID": "3B",
       "balance": 20,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 211,
@@ -1559,7 +1824,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 38,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 190,
@@ -1567,7 +1833,8 @@
       "email": "none",
       "classID": "3C",
       "balance": 55,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 191,
@@ -1575,7 +1842,8 @@
       "email": "none",
       "classID": "0 - Knight",
       "balance": 8,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 192,
@@ -1583,7 +1851,8 @@
       "email": "none",
       "classID": "1B",
       "balance": 32,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 193,
@@ -1591,7 +1860,8 @@
       "email": "none",
       "classID": "8th",
       "balance": 19,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 194,
@@ -1599,7 +1869,8 @@
       "email": "none",
       "classID": "0 - Knight",
       "balance": 16,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 195,
@@ -1607,7 +1878,8 @@
       "email": "none",
       "classID": "2B",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 196,
@@ -1615,7 +1887,8 @@
       "email": "none",
       "classID": "5A",
       "balance": 36,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 197,
@@ -1623,7 +1896,8 @@
       "email": "none",
       "classID": "2A",
       "balance": 33,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 198,
@@ -1631,7 +1905,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 11,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 199,
@@ -1639,7 +1914,8 @@
       "email": "none",
       "classID": "1A",
       "balance": 14,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 200,
@@ -1647,7 +1923,8 @@
       "email": "none",
       "classID": "3A",
       "balance": 7,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 202,
@@ -1655,7 +1932,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 8,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 201,
@@ -1663,7 +1941,8 @@
       "email": "none",
       "classID": "4B",
       "balance": 16,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 203,
@@ -1671,7 +1950,8 @@
       "email": "none",
       "classID": "1C",
       "balance": 30,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 204,
@@ -1679,7 +1959,8 @@
       "email": "none",
       "classID": "0 - Lang",
       "balance": 34,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 205,
@@ -1687,7 +1968,8 @@
       "email": "none",
       "classID": "none",
       "balance": 18,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 206,
@@ -1695,7 +1977,8 @@
       "email": "none",
       "classID": "7th",
       "balance": -1,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 207,
@@ -1703,7 +1986,8 @@
       "email": "none",
       "classID": "none",
       "balance": 0,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 208,
@@ -1711,7 +1995,8 @@
       "email": "none",
       "classID": "Kessel",
       "balance": 38,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 213,
@@ -1719,7 +2004,8 @@
       "email": "jte1544@gmail.com",
       "classID": "4BB",
       "balance": 1,
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     },
     {
       "id": 212,
@@ -1727,7 +2013,8 @@
       "email": "jte1544@gmail.com",
       "classID": "Kessel",
       "balance": "123",
-      "choice": "none"
+      "choice": "none",
+      "comment": ""
     }
   ],
   "classrooms": [
@@ -1789,39 +2076,47 @@
     },
     {
       "id": 14,
-      "teacherName": "4BB"
+      "teacherName": "4B7"
     },
     {
       "id": 15,
-      "teacherName": "4C"
+      "teacherName": "4BB"
     },
     {
       "id": 16,
-      "teacherName": "5A"
+      "teacherName": "4C"
     },
     {
       "id": 17,
-      "teacherName": "5B"
+      "teacherName": "5A"
     },
     {
       "id": 18,
-      "teacherName": "5C"
+      "teacherName": "5B"
     },
     {
       "id": 19,
-      "teacherName": "7th"
+      "teacherName": "5C"
     },
     {
       "id": 20,
-      "teacherName": "8th"
+      "teacherName": "7th"
     },
     {
       "id": 21,
-      "teacherName": "Bennett"
+      "teacherName": "8th"
     },
     {
       "id": 22,
+      "teacherName": "Bennett"
+    },
+    {
+      "id": 23,
       "teacherName": "Kessel"
+    },
+    {
+      "id": 24,
+      "teacherName": "Kessellll"
     }
   ]
 }

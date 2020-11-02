@@ -154,6 +154,25 @@ app.post('/api/addStudent', (req, res) => {
 
   studentData.push(currStudent);
   db.set('students', studentData).write();
+
+  var classroomImport = [];
+  for (var i = 0; i < studentData.length; i++) {
+    if (!classroomImport.includes(studentData[i].classID)) {
+      if (!(studentData[i].classID == 'classID' || studentData[i].classID == 'none')) {
+        classroomImport.push(studentData[i].classID);
+      }
+    }
+  }
+  classroomImport.sort();
+  var classroomFinal = [];
+  for (var i = 0; i < classroomImport.length; i++) {
+    classroomFinal[i] = {
+      id: i,
+      teacherName: classroomImport[i]
+    }
+  }
+  db.set('classrooms', classroomFinal).write();
+
   res.json({
     status: 200
   });

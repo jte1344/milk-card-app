@@ -39,7 +39,8 @@ export class EditStudentComponent implements OnInit {
       "email": "email",
       "classID": "classID",
       "balance": "balance",
-      "choice": "choice"
+      "choice": "choice",
+      "comment": "comment"
     }
     this.id = this.route.snapshot.paramMap.get("id");
     this.adminService.getAllStudents(this.currentUser).pipe(first()).subscribe(response => {

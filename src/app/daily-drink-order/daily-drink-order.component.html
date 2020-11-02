@@ -1,5 +1,8 @@
 <div class="container">
   <div class="" id="allClasses">
+    <div *ngIf="orders.length == 0">
+      <h1 class="text-center">No orders have arrived yet.</h1>
+    </div>
     <div *ngFor="let order of orders" class=" my-5 p-4 page-break">
       <h1 class="">{{ order.classroom }}</h1>
       <h2>{{month}}/{{day}}/{{year}}</h2>
