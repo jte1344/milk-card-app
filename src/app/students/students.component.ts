@@ -61,7 +61,9 @@ export class StudentsComponent implements OnInit {
         "email": "email",
         "classID": "classID",
         "balance": "balance",
-        "choice": "choice"
+        "choice": "choice",
+        "FullComment": "comment",
+        "comment": "comment"
       });
 
     });
@@ -100,7 +102,6 @@ export class StudentsComponent implements OnInit {
   }
 
   saveStudents() {
-
     console.log(this.students);
     this.adminService.postStudents(this.currentUser, this.students).pipe(first())
       .subscribe(

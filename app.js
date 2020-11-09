@@ -182,6 +182,7 @@ app.post('/api/addStudent', (req, res) => {
 app.post('/api/postStudents', (req, res) => {
 
   var studentImport = req.body.data;
+  console.log(studentImport);
   var finalStudentList = [];
   //removes basic student object from list generated on front end
   for (var i = 0; i < studentImport.length; i++) {
@@ -190,6 +191,7 @@ app.post('/api/postStudents', (req, res) => {
     } else {
       finalStudentList.push(studentImport[i]);
     }
+    delete studentImport[i].__EMPTY
   }
   db.set('students', finalStudentList).write();
 

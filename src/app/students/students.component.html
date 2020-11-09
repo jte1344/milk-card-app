@@ -16,28 +16,27 @@
         <h4>{{ student.id }}</h4>
       </td>
       <td class="" width=35%>
+        <h4 *ngIf="student.id == 'id'" class="px-4">{{ student.name }}</h4>
         <a routerLink="/students/{{ student.id }}" class="CD-text-decoration" *ngIf="student.id !== 'id'">
           <button class="btn solid-blue rounded-pill">
             <h4 class="text-white px-4">{{ student.name }}</h4>
           </button>
         </a>
-        <h4 *ngIf="student.id === 'id'">Name</h4>
       </td>
       <td class="">
-        <h4 *ngIf="student.id === 'id'">Cohort</h4>
-        <h4 *ngIf="student.id !== 'id'">{{ student.classID }}</h4>
+        <h4>{{ student.classID }}</h4>
       </td>
       <td class="">
-        <h4 *ngIf="student.id === 'id'">Balance</h4>
-        <h4 *ngIf="student.id !== 'id'">{{ student.balance }}</h4>
+        <h4>{{ student.balance }}</h4>
       </td>
       <td class="hidden">
-        <h4 *ngIf="student.id === 'id'">Drink choice today</h4>
-        <h4 *ngIf="student.id !== 'id'">{{ student.choice }}</h4>
+        <h4>{{ student.choice }}</h4>
+      </td>
+      <td class="hidden">
+        <h4>{{ student.comment }}</h4>
       </td>
       <td class="width=45">
-        <h4 *ngIf="student.id === 'id'">Comment</h4>
-        <h4 class="cursor-pointer" *ngIf="student.id !== 'id' && student.comment" (click)="open(content, student.comment)">{{ student.comment | slice:0:32 }}...</h4>
+        <h4 class="cursor-pointer" *ngIf="student.comment" (click)="open(content, student.comment)">{{ student.comment | slice:0:32 }}...</h4>
       </td>
     </tr>
   </table>
