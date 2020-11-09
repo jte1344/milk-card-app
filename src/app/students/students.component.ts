@@ -50,9 +50,11 @@ export class StudentsComponent implements OnInit {
     this.adminService.getAllStudents(this.currentUser).pipe(first()).subscribe(response => {
       this.loading = false;
       this.students = response;
+      console.log(this.students);
       this.students.sort(function(a, b) {
         a = a.name.toLowerCase();
         b = b.name.toLowerCase();
+
         return a < b ? -1 : a > b ? 1 : 0;
       });
       this.students.unshift({
