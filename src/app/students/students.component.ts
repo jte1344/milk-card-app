@@ -6,6 +6,7 @@ import { AdminService } from '../_services/admin.service';
 import { Student } from '../_models/student';
 import { User } from '../_models/user';
 import * as XLSX from 'xlsx';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-students',
@@ -17,6 +18,8 @@ export class StudentsComponent implements OnInit {
   @ViewChild('table') table: ElementRef;
 
   currentUser: User;
+  currComment = '';
+  closeResult = '';
   loading = false;
   students: any;
   willDownload = false;
@@ -37,7 +40,8 @@ export class StudentsComponent implements OnInit {
 
   constructor(
     private authenticationService: AuthenticationService,
-    private adminService: AdminService
+    private adminService: AdminService,
+    private modalService: NgbModal
   ) {
     this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
   }
@@ -95,7 +99,7 @@ export class StudentsComponent implements OnInit {
     reader.readAsBinaryString(file);
   }
 
-  saveStudents(){
+  saveStudents() {
 
     console.log(this.students);
     this.adminService.postStudents(this.currentUser, this.students).pipe(first())
@@ -105,7 +109,23 @@ export class StudentsComponent implements OnInit {
         });
   }
 
+  open(content, comment) {
+    this.currComment = comment;
+    this.modalService.open(content, { size: 'xl', centered: true, ariaLabelledBy: 'modal-basic-title' }).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
 
-
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
+  }
 
 }

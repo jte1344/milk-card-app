@@ -317,6 +317,34 @@ app.post('/api/postOrder', (req, res) => {
 app.get('/api/drinkOrder', (req, res) => {
   res.json(db.getState().daily);
 });
+app.get('/api/drinkOrderTotal', (req, res) => {
+
+  var students = db.getState().students;
+
+  var results = {
+    total: 0,
+    milk: 0,
+    water: 0,
+    chocoMilk: 0,
+  }
+
+  for (var i = 0; i < students.length; i++) {
+    if (students[i].choice === 'milk') {
+      results.total++;
+      results.milk++;
+    }
+    if (students[i].choice === 'water') {
+      results.total++;
+      results.water++;
+    }
+    if (students[i].choice === 'chocoMilk') {
+      results.total++;
+      results.chocoMilk++;
+    }
+  }
+
+  res.json(results);
+});
 
 
 app.get('/test', (req, res) => {

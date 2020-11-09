@@ -14,6 +14,7 @@ export class DailyDrinkOrderComponent implements OnInit {
 
   currentUser: User;
   orders: any;
+  total: any;
   loading = false;
 
   dayName = new Date().toLocaleString("en-US", {
@@ -51,8 +52,12 @@ export class DailyDrinkOrderComponent implements OnInit {
         return a < b ? -1 : a > b ? 1 : 0;
       });
       console.log(this.orders);
+    })
+    this.adminService.getDrinkOrderTotal(this.currentUser).subscribe(drinkOrdersTotal => {
+      this.loading = false;
+      this.total = drinkOrdersTotal;
+      console.log(this.total);
+    })
 
-    });
   }
-
 }

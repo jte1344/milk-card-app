@@ -15,17 +15,13 @@
       <td class="hidden">
         <h4>{{ student.id }}</h4>
       </td>
-      <td class="">
+      <td class="" width=35%>
         <a routerLink="/students/{{ student.id }}" class="CD-text-decoration" *ngIf="student.id !== 'id'">
           <button class="btn solid-blue rounded-pill">
             <h4 class="text-white px-4">{{ student.name }}</h4>
           </button>
         </a>
         <h4 *ngIf="student.id === 'id'">Name</h4>
-      </td>
-      <td class="">
-        <h4 *ngIf="student.id === 'id'">Email</h4>
-        <h4 *ngIf="student.id !== 'id'">{{ student.email }}</h4>
       </td>
       <td class="">
         <h4 *ngIf="student.id === 'id'">Cohort</h4>
@@ -39,9 +35,9 @@
         <h4 *ngIf="student.id === 'id'">Drink choice today</h4>
         <h4 *ngIf="student.id !== 'id'">{{ student.choice }}</h4>
       </td>
-      <td class="">
+      <td class="width=45">
         <h4 *ngIf="student.id === 'id'">Comment</h4>
-        <h4 *ngIf="student.id !== 'id'">{{ student.comment }}</h4>
+        <h4 class="cursor-pointer" *ngIf="student.id !== 'id' && student.comment" (click)="open(content, student.comment)">{{ student.comment | slice:0:32 }}...</h4>
       </td>
     </tr>
   </table>
@@ -72,3 +68,20 @@
 
   <h4 class="text-danger mb-5">*Do not change column headers in the excel sheet</h4>
 </div>
+
+
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Student Comment: </h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h6>{{ currComment }}</h6>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">Close</button>
+  </div>
+</ng-template>

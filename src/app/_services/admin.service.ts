@@ -18,6 +18,9 @@ export class AdminService {
   getDrinkOrder(currentUser) {
     return this.http.get<any>(`${environment.apiUrl}/api/drinkOrder`);
   }
+  getDrinkOrderTotal(currentUser) {
+    return this.http.get<any>(`${environment.apiUrl}/api/drinkOrderTotal`);
+  }
   getAllStudents(currentUser) {
     return this.http.get<Student[]>(`${environment.apiUrl}/api/getStudents`);
   }

@@ -1,63 +1,5 @@
 {
-  "daily": [
-    {
-      "classroom": "0 - Knight",
-      "students": [],
-      "drinks": {
-        "milk": 0,
-        "water": 0,
-        "chocoMilk": 0
-      }
-    },
-    {
-      "classroom": "Kessellll",
-      "students": [
-        {
-          "name": "Cyper Designs LLC",
-          "drink": "milk"
-        }
-      ],
-      "drinks": {
-        "milk": 1,
-        "water": 0,
-        "chocoMilk": 0
-      }
-    },
-    {
-      "classroom": "0 - Albert",
-      "students": [
-        {
-          "name": "Cherry, Aleena",
-          "drink": "chocoMilk"
-        },
-        {
-          "name": "May, Sutton",
-          "drink": "chocoMilk"
-        },
-        {
-          "name": "Powell, Matthew",
-          "drink": "chocoMilk"
-        },
-        {
-          "name": "Rayfield, Moses",
-          "drink": "chocoMilk"
-        },
-        {
-          "name": "Salazar, Selena",
-          "drink": "chocoMilk"
-        },
-        {
-          "name": "Scanlan, Morgan",
-          "drink": "chocoMilk"
-        }
-      ],
-      "drinks": {
-        "milk": 0,
-        "water": 0,
-        "chocoMilk": 6
-      }
-    }
-  ],
+  "daily": [],
   "users": [
     {
       "id": 1,
@@ -82,7 +24,7 @@
       "classID": "Kessel",
       "balance": 40,
       "choice": "none",
-      "comment": ""
+      "comment": "Something ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElsevSomething ElseSomething ElseSomething Else"
     },
     {
       "id": 2,
@@ -188,7 +130,7 @@
       "name": "Bennett, Mia",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 15,
+      "balance": 14,
       "choice": "none",
       "comment": ""
     },
@@ -206,7 +148,7 @@
       "name": "Bozzy, Grant",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 33,
+      "balance": 32,
       "choice": "none",
       "comment": ""
     },
@@ -278,7 +220,7 @@
       "name": "Browning, Kate",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 30,
+      "balance": 29,
       "choice": "none",
       "comment": ""
     },
@@ -332,8 +274,8 @@
       "name": "Cherry, Aleena",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 34,
-      "choice": "chocoMilk",
+      "balance": 33,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -423,7 +365,7 @@
       "email": "jake@cyperdesigns.com",
       "classID": "Kessel",
       "balance": "123",
-      "choice": ""
+      "choice": "none"
     },
     {
       "id": 214,
@@ -439,8 +381,8 @@
       "name": "Cyper Designs LLC",
       "email": "jake@cyperdesigns.com",
       "classID": "Kessellll",
-      "balance": 131465,
-      "choice": "milk",
+      "balance": 131464,
+      "choice": "none",
       "comment": "Stupid boiiiii"
     },
     {
@@ -502,7 +444,7 @@
       "name": "Empey, Hudson",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 28,
+      "balance": 27,
       "choice": "none",
       "comment": ""
     },
@@ -511,7 +453,7 @@
       "name": "Empey, Tobey",
       "email": "none",
       "classID": "2C",
-      "balance": 13,
+      "balance": 12,
       "choice": "none",
       "comment": ""
     },
@@ -935,7 +877,7 @@
       "email": "jte1544@gmail.com",
       "classID": "Kessel",
       "balance": "69420",
-      "choice": ""
+      "choice": "none"
     },
     {
       "id": 216,
@@ -1032,7 +974,7 @@
       "name": "Kiser, London",
       "email": "none",
       "classID": "2C",
-      "balance": 41,
+      "balance": 40,
       "choice": "none",
       "comment": ""
     },
@@ -1050,7 +992,7 @@
       "name": "Knight, Keegan",
       "email": "none",
       "classID": "2C",
-      "balance": 37,
+      "balance": 36,
       "choice": "none",
       "comment": ""
     },
@@ -1059,7 +1001,7 @@
       "name": "Komitor, Alex",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 9,
+      "balance": 8,
       "choice": "none",
       "comment": ""
     },
@@ -1194,8 +1136,8 @@
       "name": "May, Sutton",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 5,
-      "choice": "chocoMilk",
+      "balance": 4,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -1410,7 +1352,7 @@
       "name": "Pachello, Soleil",
       "email": "none",
       "classID": "2C",
-      "balance": 28,
+      "balance": 27,
       "choice": "none",
       "comment": ""
     },
@@ -1419,7 +1361,7 @@
       "name": "Parsons, Lillian",
       "email": "none",
       "classID": "2C",
-      "balance": 37,
+      "balance": 36,
       "choice": "none",
       "comment": ""
     },
@@ -1527,8 +1469,8 @@
       "name": "Powell, Matthew",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 8,
-      "choice": "chocoMilk",
+      "balance": 7,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -1545,7 +1487,7 @@
       "name": "Ramsey, Ophelia",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 22,
+      "balance": 21,
       "choice": "none",
       "comment": ""
     },
@@ -1572,8 +1514,8 @@
       "name": "Rayfield, Moses",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 10,
-      "choice": "chocoMilk",
+      "balance": 9,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -1626,7 +1568,7 @@
       "name": "Ross, Trey",
       "email": "none",
       "classID": "2C",
-      "balance": 13,
+      "balance": 12,
       "choice": "none",
       "comment": ""
     },
@@ -1644,8 +1586,8 @@
       "name": "Salazar, Selena",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 10,
-      "choice": "chocoMilk",
+      "balance": 9,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -1653,7 +1595,7 @@
       "name": "Scanlan, Alaina",
       "email": "none",
       "classID": "2C",
-      "balance": 38,
+      "balance": 37,
       "choice": "none",
       "comment": ""
     },
@@ -1662,8 +1604,8 @@
       "name": "Scanlan, Morgan",
       "email": "none",
       "classID": "0 - Albert",
-      "balance": 11,
-      "choice": "chocoMilk",
+      "balance": 10,
+      "choice": "none",
       "comment": ""
     },
     {
@@ -1671,7 +1613,7 @@
       "name": "Schneringer, Tommy",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 27,
+      "balance": 26,
       "choice": "none",
       "comment": ""
     },
@@ -1816,7 +1758,7 @@
       "email": "jte1544@gmail.com",
       "classID": "4B",
       "balance": "123",
-      "choice": ""
+      "choice": "none"
     },
     {
       "id": 189,
@@ -1958,7 +1900,7 @@
       "name": "West, Harper",
       "email": "none",
       "classID": "0 - Lang",
-      "balance": 34,
+      "balance": 33,
       "choice": "none",
       "comment": ""
     },
