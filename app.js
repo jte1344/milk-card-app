@@ -43,7 +43,7 @@ app.use(
 
 //cron.schedule("*/5 * * * * *", () => {
 
-cron.schedule("00 00 00 * * *", () => {
+cron.schedule("00 00 15 * * *", () => {
 
   //get current daily order
   var dailyData = db.getState().daily;
@@ -112,7 +112,10 @@ const verifyUser = (userToken) => {
 
 app.post('/api/authenticate', (req, res) => {
   const users = db.getState().users;
-  const {username, password} = req.body;
+  const {
+    username,
+    password
+  } = req.body;
   const user = users.find(x => x.username === username && x.password === password);
   if (!username || !password || !user) {
     // return 401 error is username or password doesn't exist, or if password does
@@ -245,6 +248,9 @@ app.get('/api/getStudents', (req, res) => {
 });
 
 app.post('/api/postOrder', (req, res) => {
+
+  console.log(req.body);
+
   //get daily db data
   var dailyData = db.getState().daily;
 
@@ -300,6 +306,8 @@ app.post('/api/postOrder', (req, res) => {
       } else {
         console.log("Unable to add chocoMilk drink to order");
       }
+    } else if (classStudent[i].choice === 'none') {
+      var x = setStudentDrink(classStudent[i].id, 'none')
     } else {
       console.log("Nothing to change");
     }

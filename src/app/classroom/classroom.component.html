@@ -2,14 +2,14 @@
   <h1 class="text-center banner-text-4">{{ classroom.teacherName }}</h1>
   <h1 class="text-center banner-text-2">{{ dayName }}</h1>
   <h1 class="text-center banner-text-3" *ngIf="response">{{response.msg}}</h1>
-  <div *ngIf="response"  class="col-12 col-sm-6 ml-auto mr-auto my-4">
+  <div *ngIf="response" class="col-12 col-sm-6 ml-auto mr-auto my-4">
     <a routerLink="/" class="CD-text-decoration">
       <div class="rounded-pill dusty-grass h-100">
         <h1 class="box-text-4 text-white text-center p-4">Home</h1>
       </div>
     </a>
   </div>
-  <div class="row justify-content-center" *ngIf="!response">
+  <div class="row justify-content-center m-footer" *ngIf="!response">
     <form class="col-12 col-lg-11">
       <div *ngFor="let student of students; let i = index;" class="col-12">
         <div class="rounded light-blue my-2" *ngIf="student.balance >= 0">
@@ -28,29 +28,29 @@
                 <div class="py-3">
                   <h5 class="text-white mb-0" *ngIf="student.balance > 5">Remaining: {{student.balance}}</h5>
                   <h5 class="text-white mb-0" *ngIf="student.balance <= 5 && student.balance > 3"><span class="text-warning">Remaining: {{student.balance}}</span></h5>
-                  <h5 class="text-white mb-0" *ngIf="student.balance <= 3"><span  class="text-danger">Remaining: {{student.balance}}</span></h5>
+                  <h5 class="text-white mb-0" *ngIf="student.balance <= 3"><span class="text-danger">Remaining: {{student.balance}}</span></h5>
                 </div>
               </li>
             </ul>
             <ul class="ml-auto mr-4 float-right mb-0 pl-0" *ngIf="student.balance > 0">
               <li class="mx-0 pl-1">
-                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'none' ? 'solid-blue' : ''" (click)="student.choice = 'none'">
+                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.checked == true ? 'dusty-grass' : student.choice === 'none' ? 'solid-blue' : ''" (click)="clickEvent(student, true);">
                   <h6 class="text-white mb-0">None</h6>
                 </div>
               </li>
               <li class="mx-0 pl-1">
-                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'milk' ? 'solid-blue' : ''" (click)="student.choice = 'milk'">
+                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'milk' ? 'solid-blue' : ''" (click)="student.choice = 'milk'; clickEvent(student);">
                   <h6 class="text-white mb-0">Milk</h6>
                 </div>
               </li>
               <li class="mx-0 pl-1">
-                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'water' ? 'solid-blue' : ''" (click)="student.choice = 'water'">
+                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'water' ? 'solid-blue' : ''" (click)="student.choice = 'water'; clickEvent(student);">
                   <h6 class="text-white mb-0">Water</h6>
                 </div>
               </li>
               <!--!!!!!!!!!!!  DONT FORGET TO CHANGE DAILY DRINK DAY (daily-drink-order.component.html) TO NEW DAY IF YOU CHANGE FRIDAY  !!!!!!!!!!-->
               <li *ngIf="dayName === 'Thursday'" class="mx-3">
-                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'chocoMilk' ? 'solid-blue' : ''" (click)="student.choice = 'chocoMilk'">
+                <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'chocoMilk' ? 'solid-blue' : ''" (click)="student.choice = 'chocoMilk'; clickEvent(student);">
                   <h6 class="text-white mb-0">Chocolate Milk</h6>
                 </div>
               </li>
@@ -58,12 +58,14 @@
           </div>
         </div>
       </div>
-      <div class="col-12 text-right mb-5 mt-3" (click)="submitOrder()">
-        <button [disabled]="loading" class="btn btn-primary rounded-pill px-5 py-2">
-          <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
-          <h1 class="text-white mb-0">Submit</h1>
-        </button>
-      </div>
     </form>
   </div>
+  <footer class="fixed-footer">
+    <div class="col-12 text-right my-3" (click)="submitOrder()">
+      <button [disabled]="loading" class="btn btn-primary dusty-grass border-0 rounded-pill px-5 py-2">
+        <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+        <h1 class="text-white mb-0">Submit</h1>
+      </button>
+    </div>
+  </footer>
 </div>

@@ -1,7 +1,19 @@
-ul{
+ul {
   list-style: none;
 }
-ul li{
+
+ul li {
   float: left;
   margin: 10px;
+}
+
+.m-footer {
+  margin-bottom: 6rem;
+}
+
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

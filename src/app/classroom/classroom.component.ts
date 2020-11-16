@@ -20,6 +20,7 @@ export class ClassroomComponent implements OnInit {
 
   loading = false;
   currentUser: User;
+  color = true;
   id: string;
   students: Student[];
   classroom: Classroom;
@@ -67,11 +68,24 @@ export class ClassroomComponent implements OnInit {
 
   submitOrder() {
     this.classService.postOrder(this.currentUser, this.students)
-    .pipe(first())
+      .pipe(first())
       .subscribe(
         data => {
           this.response = data;
         });
+  }
+
+  clickEvent(currStudent, noneClick) {
+
+    if (noneClick === true) {
+      currStudent.choice = 'none';
+    }
+    if (currStudent.choice === 'none') {
+      currStudent.checked = true;
+    } else {
+      currStudent.checked = false;
+    }
+    console.log(currStudent);
   }
 
 
