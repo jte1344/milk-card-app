@@ -27,13 +27,13 @@
       <hr>
       <h1>Milk total: {{ order.drinks.milk }}</h1>
       <h1>Water total: {{ order.drinks.water }}</h1>
-      <h1 *ngIf="dayName === 'Thursday'">Chocolate Milk: {{ order.drinks.chocoMilk }}</h1>
+      <h1 *ngIf="dayName === 'Friday'">Chocolate Milk: {{ order.drinks.chocoMilk }}</h1>
     </div>
     <div class="my-5 p-4">
       <h1>{{month}}/{{day}}/{{year}}</h1>
       <h1>Milk total: {{total.milk}}</h1>
       <h1>Water total: {{total.water}}</h1>
-      <h1 *ngIf="dayName === 'Thursday'">Chocolate milk total: {{total.chocoMilk}}</h1>
+      <h1 *ngIf="dayName === 'Friday'">Chocolate milk total: {{total.chocoMilk}}</h1>
     </div>
   </div>
 </div>

@@ -49,7 +49,7 @@
                 </div>
               </li>
               <!--!!!!!!!!!!!  DONT FORGET TO CHANGE DAILY DRINK DAY (daily-drink-order.component.html) TO NEW DAY IF YOU CHANGE FRIDAY  !!!!!!!!!!-->
-              <li *ngIf="dayName === 'Thursday'" class="mx-3">
+              <li *ngIf="dayName === 'Friday'" class="mx-3">
                 <div class="px-3 py-2 rounded-pill cursor-pointer" [ngClass]="student.choice == 'chocoMilk' ? 'solid-blue' : ''" (click)="student.choice = 'chocoMilk'; clickEvent(student);">
                   <h6 class="text-white mb-0">Chocolate Milk</h6>
                 </div>

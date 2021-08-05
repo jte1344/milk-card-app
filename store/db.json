@@ -55,1623 +55,1476 @@
   ],
   "students": [
     {
-      "id": 1,
-      "name": "Anderson, Anna",
-      "email": "Some Email",
-      "classID": "Kessel",
-      "balance": 40,
-      "choice": "none",
-      "comment": "Something ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElseSomething ElsevSomething ElseSomething ElseSomething Else",
-      "comment...": "Something ElseSomething ElseSome..."
-    },
-    {
-      "id": 2,
-      "name": "Arlanagic, Azzer",
-      "classID": "4B",
-      "balance": 34,
-      "choice": "none"
-    },
-    {
-      "id": 3,
-      "name": "Arslanagic, Ayla",
-      "classID": "3B",
-      "balance": 32,
-      "choice": "none"
-    },
-    {
-      "id": 4,
-      "name": "Avellana, Dominique",
-      "classID": "0 - Lang",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 5,
-      "name": "Baca, Chance",
-      "classID": "3A",
-      "balance": 23,
-      "choice": "none"
-    },
-    {
-      "id": 6,
-      "name": "Baldwin, Taylee",
-      "classID": "7th",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 7,
-      "name": "Baldwin, Zach",
-      "classID": "8th",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 8,
-      "name": "Balicki, Katherine",
-      "classID": "3A",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 9,
-      "name": "Balicki, Lizzy",
-      "classID": "Kessel",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 10,
-      "name": "Banich, Aubriella",
-      "classID": "2B",
-      "balance": 22,
-      "choice": "none"
-    },
-    {
-      "id": 11,
-      "name": "Bartch, Brynley",
-      "classID": "2A",
-      "balance": 5,
-      "choice": "none"
-    },
-    {
-      "id": 12,
-      "name": "Benisch, Maddie",
-      "classID": "4A",
-      "balance": 25,
-      "choice": "none"
-    },
-    {
-      "id": 13,
-      "name": "Bennett, Mia",
-      "classID": "0 - Lang",
-      "balance": 14,
-      "choice": "none"
-    },
-    {
-      "id": 14,
-      "name": "Bohn, Hellena",
-      "classID": "none",
-      "balance": 33,
-      "choice": "none"
-    },
-    {
-      "id": 15,
-      "name": "Bozzy, Grant",
-      "classID": "0 - Lang",
-      "balance": 32,
-      "choice": "none"
-    },
-    {
-      "id": 16,
-      "name": "Bragg, Rylen",
-      "classID": "4B",
-      "balance": 35,
-      "choice": "none"
-    },
-    {
-      "id": 17,
-      "name": "Bredenberg, Maddie",
-      "classID": "Bennett",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 18,
-      "name": "Briggs, Carter",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 19,
-      "name": "Briggs, Jillian",
-      "classID": "Kessel",
-      "balance": 34,
-      "choice": "none"
-    },
-    {
-      "id": 20,
-      "name": "Brooks, Charlotte",
-      "classID": "5C",
-      "balance": 35,
-      "choice": "none"
-    },
-    {
-      "id": 21,
-      "name": "Brott, Izabella",
-      "classID": "7th",
-      "balance": 36,
-      "choice": "none"
-    },
-    {
-      "id": 22,
-      "name": "Brott, Izaiah",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 23,
-      "name": "Browning, Kate",
-      "classID": "0 - Lang",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 24,
-      "name": "Carlson, Eastin",
-      "classID": "5B",
-      "balance": 42,
-      "choice": "none"
-    },
-    {
-      "id": 25,
-      "name": "Cassady, Bridget",
-      "classID": "1B",
-      "balance": 18,
-      "choice": "none"
-    },
-    {
-      "id": 26,
-      "name": "Cassady, Hannah",
-      "classID": "3C",
-      "balance": 25,
-      "choice": "none"
-    },
-    {
-      "id": 27,
-      "name": "Cassai, Maddison",
-      "classID": "4A",
-      "balance": 22,
-      "choice": "none"
-    },
-    {
-      "id": 28,
-      "name": "Castillo, Michael",
-      "classID": "5C",
-      "balance": 38,
-      "choice": "none"
-    },
-    {
-      "id": 29,
-      "name": "Cherry, Aleena",
-      "classID": "0 - Albert",
-      "balance": 33,
-      "choice": "none"
-    },
-    {
-      "id": 30,
-      "name": "Clark, Elin",
-      "classID": "none",
-      "balance": 14,
-      "choice": "none"
-    },
-    {
       "id": 31,
-      "name": "Clem, Logan",
-      "classID": "5C",
-      "balance": 31,
-      "choice": "none"
-    },
-    {
-      "id": 32,
-      "name": "Copeland, Zoe",
-      "classID": "0 - Knight",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 33,
-      "name": "Crail, Henrik",
-      "classID": "7th",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 34,
-      "name": "Croy, Laneya",
-      "classID": "8th",
-      "balance": 19,
-      "choice": "none"
-    },
-    {
-      "id": 35,
-      "name": "Csicsely, Dean",
-      "classID": "3C",
-      "balance": 5,
-      "choice": "none"
-    },
-    {
-      "id": 36,
-      "name": "Csicsely, Lia",
-      "classID": "5B",
-      "balance": 22,
-      "choice": "none"
-    },
-    {
-      "id": 37,
-      "name": "Curtis, Camryn",
-      "classID": "7th",
-      "balance": -2,
-      "choice": "none"
-    },
-    {
-      "id": 38,
-      "name": "Curtis, Ryan",
-      "classID": "5C",
-      "balance": 4,
-      "choice": "none"
-    },
-    {
-      "id": 210,
-      "name": "Cyper Designs LLC",
-      "classID": "Kessel",
-      "balance": 123,
-      "choice": "none"
-    },
-    {
-      "id": 214,
-      "name": "Cyper Designs LLC",
-      "classID": "4BB",
-      "balance": 1,
-      "choice": "none"
-    },
-    {
-      "id": 215,
-      "name": "Cyper Designs LLC",
-      "classID": "Kessellll",
-      "balance": 131464,
-      "choice": "none",
-      "comment": "Stupid boiiiii",
-      "comment...": "Stupid boiiiii..."
-    },
-    {
-      "id": 39,
-      "name": "Dampier, Reagan",
-      "classID": "8th",
-      "balance": 65,
-      "choice": "none"
-    },
-    {
-      "id": 40,
-      "name": "Debus-Nesredin, Noah",
-      "classID": "4B",
-      "balance": 33,
-      "choice": "none"
-    },
-    {
-      "id": 41,
-      "name": "Downs, Lorraine",
-      "classID": "4A",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 42,
-      "name": "Downs, Timothy",
-      "classID": "Kessel",
-      "balance": 18,
-      "choice": "none"
-    },
-    {
-      "id": 43,
-      "name": "Duncan, Jake",
-      "classID": "4C",
-      "balance": 30,
-      "choice": "none"
-    },
-    {
-      "id": 44,
-      "name": "Duncan, Wesley",
-      "classID": "Bennett",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 45,
-      "name": "Empey, Hudson",
-      "classID": "0 - Lang",
-      "balance": 27,
-      "choice": "none"
-    },
-    {
-      "id": 46,
-      "name": "Empey, Tobey",
-      "classID": "2C",
-      "balance": 12,
-      "choice": "none"
-    },
-    {
-      "id": 47,
-      "name": "Fink, Sofia",
-      "classID": "3A",
-      "balance": 3,
-      "choice": "none"
-    },
-    {
-      "id": 48,
-      "name": "Finnegan, Emma",
-      "classID": "2A",
-      "balance": 57,
-      "choice": "none"
-    },
-    {
-      "id": 49,
-      "name": "FRANCE, NATHAN",
-      "classID": "7th",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 50,
-      "name": "Frie, Robert",
-      "classID": "none",
-      "balance": 39,
-      "choice": "none"
-    },
-    {
-      "id": 51,
-      "name": "Fries, Nora",
-      "classID": "2B",
-      "balance": 47,
-      "choice": "none"
-    },
-    {
-      "id": 52,
-      "name": "Fries, Ruth",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 53,
-      "name": "Garcia, Maizy",
-      "classID": "7th",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 54,
-      "name": "Garcia, Nixie",
-      "classID": "none",
-      "balance": -1,
-      "choice": "none"
-    },
-    {
-      "id": 55,
-      "name": "Genotte, Luke",
-      "classID": "7th",
-      "balance": 1,
-      "choice": "none"
-    },
-    {
-      "id": 56,
-      "name": "German, Averee",
-      "classID": "8th",
-      "balance": 28,
-      "choice": "none"
-    },
-    {
-      "id": 57,
-      "name": "German, Grahm",
-      "classID": "5A",
-      "balance": 25,
-      "choice": "none"
-    },
-    {
-      "id": 58,
-      "name": "Giesbrecht, Jude",
-      "classID": "3B",
-      "balance": 12,
-      "choice": "none"
-    },
-    {
-      "id": 59,
-      "name": "Giesbrecht, Zander",
-      "classID": "5A",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 60,
-      "name": "Gines, Mason",
-      "classID": "Bennett",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 61,
-      "name": "Goldsmith, Emily",
-      "classID": "Kessel",
+      "name": "Cassady, Bridget",
+      "email": "none",
+      "classID": "2 West",
       "balance": 20,
-      "choice": "none"
-    },
-    {
-      "id": 62,
-      "name": "Gottula, Valon",
-      "classID": "8th",
-      "balance": 30,
-      "choice": "none"
-    },
-    {
-      "id": 63,
-      "name": "Gratny, Liam",
-      "classID": "8th",
-      "balance": 4,
-      "choice": "none"
-    },
-    {
-      "id": 64,
-      "name": "Gratny, Roma",
-      "classID": "Kessel",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 65,
-      "name": "Gratny, Soren",
-      "classID": "3C",
-      "balance": 37,
-      "choice": "none"
-    },
-    {
-      "id": 66,
-      "name": "Green, Colton",
-      "classID": "3C",
-      "balance": 18,
-      "choice": "none"
-    },
-    {
-      "id": 67,
-      "name": "Green, Weston",
-      "classID": "1A",
-      "balance": 28,
-      "choice": "none"
-    },
-    {
-      "id": 68,
-      "name": "Griebling, Cameron",
-      "classID": "Bennett",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 69,
-      "name": "Griebling, Chelsie",
-      "classID": "8th",
-      "balance": 23,
-      "choice": "none"
-    },
-    {
-      "id": 71,
-      "name": "Grigsby, Brooklynn",
-      "classID": "0 - Knight",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 70,
-      "name": "Grigsby, Lexus",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 72,
-      "name": "Grimsley, Jackson",
-      "classID": "7th",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 73,
-      "name": "Guinn, Jazlynn",
-      "classID": "Bennett",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 74,
-      "name": "Guinn, Layla",
-      "classID": "2B",
-      "balance": 65,
-      "choice": "none"
-    },
-    {
-      "id": 75,
-      "name": "Gupta, Nisha",
-      "classID": "Kessel",
-      "balance": 9,
-      "choice": "none"
-    },
-    {
-      "id": 76,
-      "name": "Haisley, Samuel",
-      "classID": "8th",
-      "balance": 9,
-      "choice": "none"
-    },
-    {
-      "id": 77,
-      "name": "Hanley, Grace",
-      "classID": "7th",
-      "balance": 3,
-      "choice": "none"
-    },
-    {
-      "id": 78,
-      "name": "Hannah, Henry",
-      "classID": "2B",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 79,
-      "name": "Hannah, William",
-      "classID": "5B",
-      "balance": 18,
       "choice": "none"
     },
     {
       "id": 80,
-      "name": "Hayes, Ella",
-      "classID": "4B",
-      "balance": 40,
-      "choice": "none"
-    },
-    {
-      "id": 81,
-      "name": "Hebrard, Zoe",
-      "classID": "5A",
-      "balance": 28,
-      "choice": "none"
-    },
-    {
-      "id": 82,
-      "name": "Helgeson, Lizzy",
-      "classID": "Kessel",
-      "balance": 55,
-      "choice": "none"
-    },
-    {
-      "id": 83,
-      "name": "Hernandez, Gabriel",
-      "classID": "3A",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 84,
-      "name": "Hernandez, Joseph",
-      "classID": "7th",
-      "balance": 11,
-      "choice": "none"
-    },
-    {
-      "id": 85,
-      "name": "Hill, Matthew",
-      "classID": "7th",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 86,
-      "name": "Hinkle, Teagan",
-      "classID": "Bennett",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 87,
-      "name": "Hoff, Blair",
-      "classID": "Bennett",
-      "balance": 17,
-      "choice": "none"
-    },
-    {
-      "id": 88,
-      "name": "Hulen, Kodi",
-      "classID": "2A",
-      "balance": 20,
-      "choice": "none"
-    },
-    {
-      "id": 89,
-      "name": "Hulen, Mackenzie",
-      "classID": "4B",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 90,
-      "name": "Huseljic, Faris",
-      "classID": "4C",
-      "balance": 88,
-      "choice": "none"
-    },
-    {
-      "id": 91,
-      "name": "Huseljic, Kanita",
-      "classID": "2B",
-      "balance": 40,
-      "choice": "none"
-    },
-    {
-      "id": 92,
-      "name": "Jacobson, Cade",
-      "classID": "5C",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 209,
-      "name": "Jake Tyler Engelen",
-      "classID": "Kessel",
-      "balance": 69420,
-      "choice": "none"
-    },
-    {
-      "id": 216,
-      "name": "Jake Tyler Engelen",
-      "classID": "4B7",
-      "balance": 39000,
-      "choice": "none"
-    },
-    {
-      "id": 93,
-      "name": "Jugert, Lily",
-      "classID": "1A",
-      "balance": 24,
-      "choice": "none"
-    },
-    {
-      "id": 94,
-      "name": "Kellerman, Logan",
-      "classID": "3C",
-      "balance": 14,
-      "choice": "none"
-    },
-    {
-      "id": 95,
-      "name": "Kenkel, Avery",
-      "classID": "4A",
-      "balance": 2,
-      "choice": "none"
-    },
-    {
-      "id": 96,
-      "name": "Kenney, Owen",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 97,
-      "name": "King, Chole",
-      "classID": "2B",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 98,
-      "name": "Kingham, Isaac",
-      "classID": "8th",
-      "balance": 28,
-      "choice": "none"
-    },
-    {
-      "id": 99,
-      "name": "Kinsella, Breen",
-      "classID": "4C",
-      "balance": 30,
-      "choice": "none"
-    },
-    {
-      "id": 100,
-      "name": "Kiser, Karlie",
-      "classID": "4C",
-      "balance": 41,
-      "choice": "none"
-    },
-    {
-      "id": 101,
-      "name": "Kiser, Kennedy",
-      "classID": "none",
-      "balance": 46,
-      "choice": "none"
-    },
-    {
-      "id": 102,
-      "name": "Kiser, London",
-      "classID": "2C",
-      "balance": 40,
-      "choice": "none"
-    },
-    {
-      "id": 103,
-      "name": "Knight, Kali",
-      "classID": "Kessel",
-      "balance": 38,
-      "choice": "none"
-    },
-    {
-      "id": 104,
-      "name": "Knight, Keegan",
-      "classID": "2C",
-      "balance": 36,
-      "choice": "none"
-    },
-    {
-      "id": 105,
-      "name": "Komitor, Alex",
-      "classID": "0 - Lang",
-      "balance": 8,
-      "choice": "none"
-    },
-    {
-      "id": 106,
-      "name": "Komitor, Ethan",
-      "classID": "3C",
-      "balance": 26,
-      "choice": "none"
-    },
-    {
-      "id": 107,
-      "name": "Kopp, Brayden",
-      "classID": "2A",
-      "balance": 26,
-      "choice": "none"
-    },
-    {
-      "id": 108,
-      "name": "Lambrecht, Alivia",
-      "classID": "7th",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 109,
-      "name": "Lambrecht, Sophia",
-      "classID": "4C",
-      "balance": 21,
-      "choice": "none"
-    },
-    {
-      "id": 110,
-      "name": "Lamorie, Marleigh",
-      "classID": "7th",
-      "balance": 1,
-      "choice": "none"
-    },
-    {
-      "id": 111,
-      "name": "Lee, Esai",
-      "classID": "3B",
-      "balance": 20,
-      "choice": "none"
-    },
-    {
-      "id": 112,
-      "name": "Lichte, Addie",
-      "classID": "4C",
-      "balance": 32,
-      "choice": "none"
-    },
-    {
-      "id": 113,
-      "name": "Lichte, Ruby",
-      "classID": "Kessel",
-      "balance": 27,
-      "choice": "none"
-    },
-    {
-      "id": 114,
-      "name": "Lindner, Sierra",
-      "classID": "3B",
-      "balance": 42,
-      "choice": "none"
-    },
-    {
-      "id": 115,
-      "name": "Lippert, Spencer",
-      "classID": "Bennett",
-      "balance": 26,
-      "choice": "none"
-    },
-    {
-      "id": 116,
-      "name": "MAHAN, AUBREY",
-      "classID": "7th",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 117,
-      "name": "Mahan, Sidra",
-      "classID": "5A",
-      "balance": 54,
-      "choice": "none"
-    },
-    {
-      "id": 118,
-      "name": "Martin, Madeline",
-      "classID": "3B",
-      "balance": 23,
-      "choice": "none"
-    },
-    {
-      "id": 119,
-      "name": "May, Everett",
-      "classID": "2A",
-      "balance": 11,
-      "choice": "none"
-    },
-    {
-      "id": 120,
-      "name": "May, Sutton",
-      "classID": "0 - Albert",
-      "balance": 4,
-      "choice": "none"
-    },
-    {
-      "id": 121,
-      "name": "McFadden, Connor",
-      "classID": "1B",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 122,
-      "name": "Mejia-Justice, Tillman",
-      "classID": "4C",
-      "balance": 39,
-      "choice": "none"
-    },
-    {
-      "id": 123,
-      "name": "Mendoza, Jack",
-      "classID": "none",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 124,
-      "name": "Miller, Malia",
-      "classID": "none",
-      "balance": 34,
-      "choice": "none"
-    },
-    {
-      "id": 125,
-      "name": "Minshull, Audrey",
-      "classID": "Kessel",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 126,
-      "name": "Minshull, Ella",
-      "classID": "8th",
-      "balance": 6,
-      "choice": "none"
-    },
-    {
-      "id": 127,
-      "name": "Mitchell, Noah",
-      "classID": "5B",
-      "balance": 3,
-      "choice": "none"
-    },
-    {
-      "id": 128,
-      "name": "Molineux, Alex",
-      "classID": "none",
-      "balance": 23,
-      "choice": "none"
-    },
-    {
-      "id": 129,
-      "name": "Molineux, Sophia",
-      "classID": "Kessel",
-      "balance": 42,
-      "choice": "none"
-    },
-    {
-      "id": 130,
-      "name": "Morales, Leo",
-      "classID": "5A",
-      "balance": 10,
-      "choice": "none"
-    },
-    {
-      "id": 131,
-      "name": "Morse, Reese",
-      "classID": "5A",
-      "balance": 25,
-      "choice": "none"
-    },
-    {
-      "id": 132,
-      "name": "Mountain, Elise",
-      "classID": "2A",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 133,
-      "name": "Mountain, Gracelyn",
-      "classID": "2A",
-      "balance": 21,
-      "choice": "none"
-    },
-    {
-      "id": 134,
-      "name": "Mulligan, Taylor",
-      "classID": "1C",
-      "balance": 52,
-      "choice": "none"
-    },
-    {
-      "id": 135,
-      "name": "Nemecek, Eil",
-      "classID": "none",
-      "balance": -2,
-      "choice": "none"
-    },
-    {
-      "id": 136,
-      "name": "Nemecek, Lily",
-      "classID": "7th",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 137,
-      "name": "Neu, Owsley",
-      "classID": "5C",
-      "balance": 39,
-      "choice": "none"
-    },
-    {
-      "id": 138,
-      "name": "Newman, Gabriel",
-      "classID": "5C",
-      "balance": 37,
-      "choice": "none"
-    },
-    {
-      "id": 139,
-      "name": "Nielsen, Jax",
-      "classID": "Kessel",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 140,
-      "name": "Nielsen, Kaden",
-      "classID": "8th",
-      "balance": 34,
-      "choice": "none"
-    },
-    {
-      "id": 141,
-      "name": "Nothnagle, Evan",
-      "classID": "3C",
-      "balance": 84,
-      "choice": "none"
-    },
-    {
-      "id": 142,
-      "name": "Ozment, Emily",
-      "classID": "7th",
+      "name": "Green, Weston",
+      "email": "none",
+      "classID": "2 Pachello",
       "balance": 22,
       "choice": "none"
     },
     {
-      "id": 143,
-      "name": "Pachello, Amara",
-      "classID": "Bennett",
-      "balance": 4,
-      "choice": "none"
-    },
-    {
-      "id": 144,
-      "name": "Pachello, Soleil",
-      "classID": "2C",
-      "balance": 27,
-      "choice": "none"
-    },
-    {
-      "id": 146,
-      "name": "Parsons, Lillian",
-      "classID": "2C",
-      "balance": 36,
-      "choice": "none"
-    },
-    {
-      "id": 145,
-      "name": "Parsons, Trey",
-      "classID": "5B",
-      "balance": 37,
-      "choice": "none"
-    },
-    {
-      "id": 147,
-      "name": "Paschall, Aurora",
-      "classID": "5A",
-      "balance": 27,
+      "id": 259,
+      "name": "Little, Elliot",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 22,
       "choice": "none"
     },
     {
       "id": 148,
-      "name": "Pfeifer, Blaise",
-      "classID": "Bennett",
-      "balance": 33,
-      "choice": "none"
-    },
-    {
-      "id": 149,
-      "name": "Pfeifer, Quinn",
-      "classID": "4C",
-      "balance": 35,
-      "choice": "none"
-    },
-    {
-      "id": 150,
-      "name": "Pinto Grathen, Ian",
-      "classID": "8th",
-      "balance": 16,
-      "choice": "none"
-    },
-    {
-      "id": 151,
-      "name": "Plucinski, Elisa",
-      "classID": "none",
-      "balance": 35,
-      "choice": "none"
-    },
-    {
-      "id": 152,
-      "name": "Pommer, Brady",
-      "classID": "none",
-      "balance": 17,
-      "choice": "none"
-    },
-    {
-      "id": 153,
-      "name": "POMMER, GAGE",
-      "classID": "7th",
+      "name": "Madril, Bailee",
+      "email": "none",
+      "classID": "2 Pachello",
       "balance": 24,
       "choice": "none"
     },
     {
-      "id": 154,
-      "name": "Poudel, Agrim",
-      "classID": "2B",
-      "balance": 16,
-      "choice": "none"
-    },
-    {
-      "id": 155,
-      "name": "Poulin, Paxton",
-      "classID": "none",
-      "balance": 16,
-      "choice": "none"
-    },
-    {
       "id": 156,
+      "name": "McFadden, Connor",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 5,
+      "choice": "none",
+      "comment": "10/29/20 email",
+      "comment...": "10/29/20 email..."
+    },
+    {
+      "id": 170,
+      "name": "Mulligan, Taylor",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 39,
+      "choice": "none"
+    },
+    {
+      "id": 171,
+      "name": "Nemecek, Eli",
+      "email": "none",
+      "classID": "2 Pachello",
+      "balance": 1,
+      "choice": "none",
+      "comment": "5-4/28/21",
+      "comment...": "5-4/28/21..."
+    },
+    {
+      "id": 192,
       "name": "Powell, Haleigh",
-      "classID": "1A",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 157,
-      "name": "Powell, Matthew",
-      "classID": "0 - Albert",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 158,
-      "name": "Powley-Young, Calvin",
-      "classID": "5C",
-      "balance": 69,
-      "choice": "none"
-    },
-    {
-      "id": 159,
-      "name": "Ramsey, Ophelia",
-      "classID": "0 - Lang",
-      "balance": 21,
-      "choice": "none"
-    },
-    {
-      "id": 160,
-      "name": "Rawls, Gauge",
-      "classID": "0 - Albert",
-      "balance": 0,
-      "choice": "none"
-    },
-    {
-      "id": 161,
-      "name": "Rawls, Maddox",
-      "classID": "3B",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 162,
-      "name": "Rayfield, Moses",
-      "classID": "0 - Albert",
-      "balance": 9,
-      "choice": "none"
-    },
-    {
-      "id": 163,
-      "name": "Rayfield, Penelope",
-      "classID": "2B",
-      "balance": 34,
-      "choice": "none"
-    },
-    {
-      "id": 164,
-      "name": "Reiter, Jadyn",
-      "classID": "8th",
+      "email": "none",
+      "classID": "2 Pachello",
       "balance": 17,
       "choice": "none"
     },
     {
-      "id": 165,
-      "name": "Reiter, Jake",
-      "classID": "Bennett",
-      "balance": 22,
+      "id": 268,
+      "name": "Rentz, Alia",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 5,
       "choice": "none"
     },
     {
-      "id": 166,
-      "name": "Riddle, James",
-      "classID": "none",
-      "balance": 45,
+      "id": 217,
+      "name": "Spaun, Josiah",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 21,
       "choice": "none"
     },
     {
-      "id": 167,
-      "name": "Riddle, Madilyn",
-      "classID": "0 - Knight",
+      "id": 235,
+      "name": "Uttley, Alyssa",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 246,
+      "name": "West, Charlie",
+      "email": "none",
+      "classID": "2 Pachello",
+      "balance": 25,
+      "choice": "none"
+    },
+    {
+      "id": 254,
+      "name": "Young, Kainoa",
+      "email": "none",
+      "classID": "2 West",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 271,
+      "name": "Baird, Cayden",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 20,
+      "choice": "none"
+    },
+    {
+      "id": 14,
+      "name": "Banich, Aubriella",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 17,
+      "name": "Bartch, Brynley",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 3,
+      "choice": "none",
+      "comment": "5 pchs 11/5/20 email",
+      "comment...": "5 pchs 11/5/20 email..."
+    },
+    {
+      "id": 20,
+      "name": "Bohn, Hellena",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 24,
+      "choice": "none"
+    },
+    {
+      "id": 58,
+      "name": "Empey, Tobey",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 5,
+      "choice": "none",
+      "comment": "6 to Hudson 5/11/21",
+      "comment...": "6 to Hudson 5/11/21..."
+    },
+    {
+      "id": 60,
+      "name": "Finnegan, Emma",
+      "email": "none",
+      "classID": "3 Davidson",
       "balance": 18,
       "choice": "none"
     },
     {
+      "id": 64,
+      "name": "Fries, Nora",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 38,
+      "choice": "none"
+    },
+    {
+      "id": 87,
+      "name": "Guinn, Layla",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 27,
+      "choice": "none"
+    },
+    {
+      "id": 93,
+      "name": "Hannah, Henry",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 98,
+      "name": "Heinrichs, Jared",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 113,
+      "name": "Huseljic, Kanita",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 122,
+      "name": "Kenney, Owen",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 128,
+      "name": "Kiser, London",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 130,
+      "name": "Knight, Keegan",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 6,
+      "choice": "none"
+    },
+    {
+      "id": 147,
+      "name": "Lopez, Logan",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 19,
+      "choice": "none"
+    },
+    {
       "id": 168,
-      "name": "Ross, Trey",
-      "classID": "2C",
+      "name": "Mountain, Elise",
+      "email": "none",
+      "classID": "3 Young",
       "balance": 12,
       "choice": "none"
     },
     {
       "id": 169,
-      "name": "Russell, Hanna",
-      "classID": "Bennett",
+      "name": "Mountain, Gracelyn",
+      "email": "none",
+      "classID": "3 Davidson",
       "balance": 10,
-      "choice": "none"
-    },
-    {
-      "id": 170,
-      "name": "Salazar, Selena",
-      "classID": "0 - Albert",
-      "balance": 9,
-      "choice": "none"
-    },
-    {
-      "id": 171,
-      "name": "Scanlan, Alaina",
-      "classID": "2C",
-      "balance": 37,
-      "choice": "none"
-    },
-    {
-      "id": 172,
-      "name": "Scanlan, Morgan",
-      "classID": "0 - Albert",
-      "balance": 10,
-      "choice": "none"
-    },
-    {
-      "id": 173,
-      "name": "Schneringer, Tommy",
-      "classID": "0 - Lang",
-      "balance": 26,
-      "choice": "none"
-    },
-    {
-      "id": 174,
-      "name": "SHAFFER, Carson / Sulley",
-      "classID": "7th",
-      "balance": 30,
-      "choice": "none"
-    },
-    {
-      "id": 175,
-      "name": "Soos, Kyra",
-      "classID": "7th",
-      "balance": 39,
-      "choice": "none"
-    },
-    {
-      "id": 176,
-      "name": "Spaun, Josiah",
-      "classID": "1B",
-      "balance": 37,
-      "choice": "none"
-    },
-    {
-      "id": 177,
-      "name": "Spindler, Lorelei",
-      "classID": "Kessel",
-      "balance": 18,
-      "choice": "none"
-    },
-    {
-      "id": 178,
-      "name": "Strange, Jaxon",
-      "classID": "1A",
-      "balance": 7,
-      "choice": "none"
-    },
-    {
-      "id": 179,
-      "name": "Strange, Lexi",
-      "classID": "none",
-      "balance": 28,
-      "choice": "none"
-    },
-    {
-      "id": 180,
-      "name": "Sveum, Lily",
-      "classID": "4C",
-      "balance": 4,
-      "choice": "none"
-    },
-    {
-      "id": 181,
-      "name": "Terry, Reagan",
-      "classID": "2A",
-      "balance": 12,
       "choice": "none"
     },
     {
       "id": 182,
-      "name": "Terry, Roman",
-      "classID": "3B",
-      "balance": 15,
-      "choice": "none"
-    },
-    {
-      "id": 183,
-      "name": "Thomas, Carsin",
-      "classID": "5A",
-      "balance": 18,
-      "choice": "none"
-    },
-    {
-      "id": 184,
-      "name": "Thomas, Caydence",
-      "classID": "Bennett",
-      "balance": 31,
-      "choice": "none"
-    },
-    {
-      "id": 185,
-      "name": "Thomas, Landon",
-      "classID": "2B",
-      "balance": 29,
-      "choice": "none"
-    },
-    {
-      "id": 186,
-      "name": "Trammel, Joseph",
-      "classID": "4B",
-      "balance": 35,
-      "choice": "none"
-    },
-    {
-      "id": 187,
-      "name": "Troy, Carter",
-      "classID": "4C",
-      "balance": 10,
-      "choice": "none"
-    },
-    {
-      "id": 188,
-      "name": "Trujillo, Austin",
-      "classID": "3B",
-      "balance": 20,
-      "choice": "none"
-    },
-    {
-      "id": 211,
-      "name": "Tyler",
-      "classID": "4B",
-      "balance": 123,
-      "choice": "none"
-    },
-    {
-      "id": 189,
-      "name": "Unruh, Eli",
-      "classID": "Kessel",
-      "balance": 38,
-      "choice": "none"
-    },
-    {
-      "id": 190,
-      "name": "Unruh, Emily",
-      "classID": "3C",
-      "balance": 55,
-      "choice": "none"
-    },
-    {
-      "id": 191,
-      "name": "Unruh, Maggie",
-      "classID": "0 - Knight",
-      "balance": 8,
-      "choice": "none"
-    },
-    {
-      "id": 192,
-      "name": "Uttley, Alyssa",
-      "classID": "1B",
-      "balance": 32,
-      "choice": "none"
-    },
-    {
-      "id": 193,
-      "name": "VanDeventer, Hannah",
-      "classID": "8th",
-      "balance": 19,
-      "choice": "none"
-    },
-    {
-      "id": 194,
-      "name": "VanStory, Kaitlyn",
-      "classID": "0 - Knight",
-      "balance": 16,
-      "choice": "none"
-    },
-    {
-      "id": 195,
-      "name": "VanStory, Sean",
-      "classID": "2B",
-      "balance": 30,
-      "choice": "none"
-    },
-    {
-      "id": 196,
-      "name": "Vigil, Juan",
-      "classID": "5A",
-      "balance": 36,
-      "choice": "none"
-    },
-    {
-      "id": 197,
-      "name": "Vigil, Xovoni",
-      "classID": "2A",
-      "balance": 33,
-      "choice": "none"
-    },
-    {
-      "id": 198,
-      "name": "Waterman, Madelynn",
-      "classID": "Kessel",
-      "balance": 11,
-      "choice": "none"
-    },
-    {
-      "id": 199,
-      "name": "Waugh, Evelyn",
-      "classID": "1A",
-      "balance": 14,
-      "choice": "none"
-    },
-    {
-      "id": 200,
-      "name": "Waugh, Olivia",
-      "classID": "3A",
-      "balance": 7,
+      "name": "Parsons, Lillian",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 5,
       "choice": "none"
     },
     {
       "id": 202,
-      "name": "Weaver, Connor",
-      "classID": "Kessel",
-      "balance": 8,
+      "name": "Rayfield, Penelope",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 17,
       "choice": "none"
     },
     {
-      "id": 201,
-      "name": "Weaver, Tobin",
-      "classID": "4B",
-      "balance": 16,
+      "id": 209,
+      "name": "Scanlan, Alaina",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 17,
       "choice": "none"
     },
     {
-      "id": 203,
-      "name": "West, Charlie",
-      "classID": "1C",
-      "balance": 30,
+      "id": 261,
+      "name": "Terry, Reagan",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 9,
       "choice": "none"
     },
     {
-      "id": 204,
-      "name": "West, Harper",
-      "classID": "0 - Lang",
-      "balance": 33,
+      "id": 238,
+      "name": "VanStory, Sean",
+      "email": "none",
+      "classID": "3 Young",
+      "balance": 24,
       "choice": "none"
     },
     {
-      "id": 205,
-      "name": "Westman, Lily",
-      "classID": "none",
+      "id": 250,
+      "name": "Williams, Camden",
+      "email": "none",
+      "classID": "3 Davidson",
+      "balance": 37,
+      "choice": "none"
+    },
+    {
+      "id": 5,
+      "name": "Arslanagic, Ayla",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 27,
+      "choice": "none"
+    },
+    {
+      "id": 7,
+      "name": "Baca, Chance",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 43,
+      "choice": "none"
+    },
+    {
+      "id": 11,
+      "name": "Balicki, Katherine",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 5,
+      "choice": "none"
+    },
+    {
+      "id": 32,
+      "name": "Cassady, Hannah",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 42,
+      "name": "Csicsely, Dean",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 14,
+      "choice": "none"
+    },
+    {
+      "id": 46,
+      "name": "Daly, Gabi",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 78,
+      "name": "Gratny, Soren",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 46,
+      "choice": "none"
+    },
+    {
+      "id": 79,
+      "name": "Green, Colton",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 101,
+      "name": "Hernandez, Gabriel",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 17,
+      "choice": "none"
+    },
+    {
+      "id": 109,
+      "name": "Holmes, Michael",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 32,
+      "choice": "none"
+    },
+    {
+      "id": 267,
+      "name": "Huff, Aiyana",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 120,
+      "name": "Kellerman, Logan",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 140,
+      "name": "Lee, Esai",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 2,
+      "choice": "none"
+    },
+    {
+      "id": 143,
+      "name": "Lindner, Sierra",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 146,
+      "name": "Little, Teddy",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 6,
+      "choice": "none"
+    },
+    {
+      "id": 151,
+      "name": "Marquess, Abby",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 164,
+      "name": "Molineux, Alex",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 6,
+      "choice": "none"
+    },
+    {
+      "id": 177,
+      "name": "Nothnagle, Evan",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 44,
+      "choice": "none"
+    },
+    {
+      "id": 187,
+      "name": "Plucinski, Elisa",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 6,
+      "choice": "none"
+    },
+    {
+      "id": 198,
+      "name": "Rawls, Maddox",
+      "email": "none",
+      "classID": "4 Larson",
+      "balance": 10,
+      "choice": "none",
+      "comment": "6 to Gauge 5/11",
+      "comment...": "6 to Gauge 5/11..."
+    },
+    {
+      "id": 225,
+      "name": "Terry, Roman",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 231,
+      "name": "Trujillo, Austin",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 233,
+      "name": "Unruh, Emily",
+      "email": "none",
+      "classID": "4 Bennett",
+      "balance": 3,
+      "choice": "none"
+    },
+    {
+      "id": 1,
+      "name": "Allen, Zach",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 43,
+      "choice": "none"
+    },
+    {
+      "id": 4,
+      "name": "Arslanagic, Azzer",
+      "email": "none",
+      "classID": "5 Pommer",
       "balance": 18,
       "choice": "none"
     },
     {
-      "id": 206,
-      "name": "Wilcox, Asher",
-      "classID": "7th",
-      "balance": -1,
+      "id": 18,
+      "name": "Benisch, Maddie",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 9,
       "choice": "none"
     },
     {
-      "id": 207,
-      "name": "Williams, Elizabeth",
-      "classID": "none",
-      "balance": 0,
+      "id": 273,
+      "name": "Bragg, Rylan",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 13,
       "choice": "none"
     },
     {
-      "id": 208,
+      "id": 33,
+      "name": "Cassai, Maddison",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 48,
+      "name": "Debus-Nesredin, Noah",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 52,
+      "name": "Duncan, Jake",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 30,
+      "choice": "none"
+    },
+    {
+      "id": 56,
+      "name": "Eafanti, Myra",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 62,
+      "name": "Freeman, Janessa",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 24,
+      "choice": "none"
+    },
+    {
+      "id": 96,
+      "name": "Hayes, Ella",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 1,
+      "choice": "none",
+      "comment": "5 pnchs 3/24/21 email",
+      "comment...": "5 pnchs 3/24/21 email..."
+    },
+    {
+      "id": 111,
+      "name": "Hulen, Mackenzie",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 14,
+      "choice": "none"
+    },
+    {
+      "id": 112,
+      "name": "Huseljic, Faris",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 26,
+      "choice": "none"
+    },
+    {
+      "id": 116,
+      "name": "Janssen, Emily",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 30,
+      "choice": "none"
+    },
+    {
+      "id": 121,
+      "name": "Kenkel, Avery",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 3,
+      "choice": "none"
+    },
+    {
+      "id": 125,
+      "name": "Kinsella, Breen",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 34,
+      "choice": "none"
+    },
+    {
+      "id": 126,
+      "name": "Kiser, Karlie",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 23,
+      "choice": "none"
+    },
+    {
+      "id": 137,
+      "name": "Lambrecht, Sophia",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 139,
+      "name": "Laski, Kennedy",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 72,
+      "choice": "none"
+    },
+    {
+      "id": 141,
+      "name": "Lichte, Addie",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 8,
+      "choice": "none"
+    },
+    {
+      "id": 158,
+      "name": "Mejia-Justice, Tillman",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 16,
+      "choice": "none"
+    },
+    {
+      "id": 185,
+      "name": "Pfeifer, Quinn",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 5,
+      "choice": "none"
+    },
+    {
+      "id": 188,
+      "name": "Pommer, Brady",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 34,
+      "choice": "none"
+    },
+    {
+      "id": 195,
+      "name": "Purnell, Mazzy",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 123,
+      "choice": "none"
+    },
+    {
+      "id": 221,
+      "name": "Strange, Lexi",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 222,
+      "name": "Sveum, Lily",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 13,
+      "choice": "none"
+    },
+    {
+      "id": 223,
+      "name": "Sykora, River",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 53,
+      "choice": "none"
+    },
+    {
+      "id": 229,
+      "name": "Trammel, Joseph",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 46,
+      "choice": "none"
+    },
+    {
+      "id": 265,
+      "name": "Troy, Carter",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 37,
+      "choice": "none"
+    },
+    {
+      "id": 244,
+      "name": "Weaver, Tobin",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 41,
+      "choice": "none"
+    },
+    {
+      "id": 248,
+      "name": "Westman, Lily",
+      "email": "none",
+      "classID": "5 Rosenstein",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 252,
+      "name": "Williams, Weston",
+      "email": "none",
+      "classID": "5 Pommer",
+      "balance": 15,
+      "choice": "none"
+    },
+    {
+      "id": 26,
+      "name": "Brooks, Charlotte",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 34,
+      "name": "Castillo, Michael",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 2,
+      "choice": "none"
+    },
+    {
+      "id": 43,
+      "name": "Csicsely, Lia",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 20,
+      "choice": "none"
+    },
+    {
+      "id": 45,
+      "name": "Curtis, Ryan",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 49,
+      "name": "Donahue, Evan",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 72,
+      "choice": "none"
+    },
+    {
+      "id": 71,
+      "name": "German, Grahm",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 19,
+      "choice": "none"
+    },
+    {
+      "id": 94,
+      "name": "Hannah, William",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 23,
+      "choice": "none"
+    },
+    {
+      "id": 99,
+      "name": "Heinrichs, Monica",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 15,
+      "choice": "none"
+    },
+    {
+      "id": 150,
+      "name": "Mahan, Sidra",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 163,
+      "name": "Mitchell, Noah",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 13,
+      "choice": "none"
+    },
+    {
+      "id": 166,
+      "name": "Morales, Leo",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 1,
+      "choice": "none",
+      "comment": "5 pnchs 11/11/20 email",
+      "comment...": "5 pnchs 11/11/20 email..."
+    },
+    {
+      "id": 167,
+      "name": "Morse, Reece",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 25,
+      "choice": "none"
+    },
+    {
+      "id": 173,
+      "name": "Neu, Owsley",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 174,
+      "name": "Newman, Gabriel",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 263,
+      "name": "Nothnagle, River",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 181,
+      "name": "Parsons, Trey",
+      "email": "none",
+      "classID": "6 Nielsen",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 194,
+      "name": "Powley-Young, Calvin",
+      "email": "none",
+      "classID": "6 Kessel",
+      "balance": 50,
+      "choice": "none"
+    },
+    {
+      "id": 3,
+      "name": "Archuleta, Lucas",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 12,
+      "name": "Balicki, Lizzy",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 1,
+      "choice": "none",
+      "comment": "5-5/11/21",
+      "comment...": "5-5/11/21..."
+    },
+    {
+      "id": 23,
+      "name": "Bredenberg, Maddie",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 25,
+      "name": "Briggs, Jillian",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 51,
+      "name": "Downs, Timothy",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 3,
+      "choice": "none",
+      "comment": "4-5/11/21",
+      "comment...": "4-5/11/21..."
+    },
+    {
+      "id": 53,
+      "name": "Duncan, Wesley",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 17,
+      "choice": "none"
+    },
+    {
+      "id": 55,
+      "name": "Eafanti, Dominik",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 73,
+      "name": "Gines, Mason",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 48,
+      "choice": "none"
+    },
+    {
+      "id": 74,
+      "name": "Goldsmith, Emily",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 17,
+      "choice": "none"
+    },
+    {
+      "id": 77,
+      "name": "Gratny, Roma",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 24,
+      "choice": "none"
+    },
+    {
+      "id": 82,
+      "name": "Griebling, Cameron",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 86,
+      "name": "Guinn, Jazlynn",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 79,
+      "choice": "none"
+    },
+    {
+      "id": 100,
+      "name": "Helgeson, Lizzy",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 34,
+      "choice": "none"
+    },
+    {
+      "id": 129,
+      "name": "Knight, Kali",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 2,
+      "choice": "none",
+      "comment": "4-5/11/21",
+      "comment...": "4-5/11/21..."
+    },
+    {
+      "id": 142,
+      "name": "Lichte, Ruby",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 11,
+      "choice": "none"
+    },
+    {
+      "id": 144,
+      "name": "Lippert, Spencer",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 165,
+      "name": "Molineux, Sophia",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 175,
+      "name": "Nielsen, Jax",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 28,
+      "choice": "none"
+    },
+    {
+      "id": 184,
+      "name": "Pfeifer, Blaise",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 24,
+      "choice": "none"
+    },
+    {
+      "id": 203,
+      "name": "Reiter, Jake",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 19,
+      "choice": "none"
+    },
+    {
+      "id": 218,
+      "name": "Spindler, Lorelei",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 5,
+      "choice": "none"
+    },
+    {
+      "id": 232,
+      "name": "Unruh, Eli",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 241,
+      "name": "Waterman, Madelynn",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 245,
+      "name": "Weaver, Connor",
+      "email": "none",
+      "classID": "7 Howerton",
+      "balance": 39,
+      "choice": "none"
+    },
+    {
+      "id": 253,
       "name": "Woszcynski, Audrey",
-      "classID": "Kessel",
+      "email": "none",
+      "classID": "7 Burke-Liggett",
+      "balance": 43,
+      "choice": "none"
+    },
+    {
+      "id": 28,
+      "name": "Brott, Izabella",
+      "email": "none",
+      "classID": "8 Miller",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 39,
+      "name": "Crail, Henrik",
+      "email": "none",
+      "classID": "8 Miller",
+      "balance": 6,
+      "choice": "none"
+    },
+    {
+      "id": 54,
+      "name": "Durham, Zach",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 112,
+      "choice": "none"
+    },
+    {
+      "id": 61,
+      "name": "France, Nathan",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 9,
+      "choice": "none"
+    },
+    {
+      "id": 90,
+      "name": "Hanley, Grace",
+      "email": "none",
+      "classID": "8 Miller",
+      "balance": 14,
+      "choice": "none"
+    },
+    {
+      "id": 102,
+      "name": "Hernandez, Joseph",
+      "email": "none",
+      "classID": "8 Miller",
+      "balance": 0,
+      "choice": "none",
+      "comment": "5 pnchs 3/18/21 email",
+      "comment...": "5 pnchs 3/18/21 email..."
+    },
+    {
+      "id": 106,
+      "name": "Hill, Matthew",
+      "email": "none",
+      "classID": "8 Specials",
       "balance": 38,
       "choice": "none"
     },
     {
-      "id": 213,
-      "name": "zJacob T Engelenz",
-      "classID": "4BB",
+      "id": 117,
+      "name": "Janssen, Adam",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 25,
+      "choice": "none"
+    },
+    {
+      "id": 149,
+      "name": "Mahan, Aubrey",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 12,
+      "choice": "none"
+    },
+    {
+      "id": 178,
+      "name": "Ozment, Emily",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 15,
+      "choice": "none"
+    },
+    {
+      "id": 189,
+      "name": "Pommer, Gage",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 39,
+      "choice": "none"
+    },
+    {
+      "id": 214,
+      "name": "Shaffer, Sulley",
+      "email": "none",
+      "classID": "8 Specials",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 256,
+      "name": "Extra",
+      "email": "none",
+      "classID": "Extra",
+      "balance": 88,
+      "choice": "none"
+    },
+    {
+      "id": 6,
+      "name": "Avellana, Dominique",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 5,
+      "choice": "none"
+    },
+    {
+      "id": 19,
+      "name": "Bennett, Mia",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 15,
+      "choice": "none"
+    },
+    {
+      "id": 22,
+      "name": "Bragg, Michael",
+      "email": "none",
+      "classID": "1 Walling",
       "balance": 1,
       "choice": "none"
     },
     {
-      "id": 212,
-      "name": "zJake Tyler Engelen",
-      "classID": "Kessel",
-      "balance": 123,
+      "id": 29,
+      "name": "Browning, Kate",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 38,
+      "choice": "none"
+    },
+    {
+      "id": 36,
+      "name": "Clark, Elin",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 21,
+      "choice": "none"
+    },
+    {
+      "id": 57,
+      "name": "Empey, Hudson",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 2,
+      "choice": "none",
+      "comment": "6 from Tobey 5/11/21",
+      "comment...": "6 from Tobey 5/11/21..."
+    },
+    {
+      "id": 65,
+      "name": "Fries, Ruth",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 37,
+      "choice": "none"
+    },
+    {
+      "id": 127,
+      "name": "Kiser, Kennedy",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 0,
+      "choice": "none",
+      "comment": "46 punches, can't have milk at this time",
+      "comment...": "46 punches, can't have milk at t..."
+    },
+    {
+      "id": 131,
+      "name": "Komitor, Alex",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 3,
+      "choice": "none"
+    },
+    {
+      "id": 155,
+      "name": "May, Sutton",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 30,
+      "choice": "none"
+    },
+    {
+      "id": 191,
+      "name": "Poulin, Paxton",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 8,
+      "choice": "none"
+    },
+    {
+      "id": 208,
+      "name": "Salazar, Selena",
+      "email": "none",
+      "classID": "1 Walling",
+      "balance": 4,
+      "choice": "none"
+    },
+    {
+      "id": 210,
+      "name": "Scanlan, Morgan",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 13,
+      "choice": "none"
+    },
+    {
+      "id": 211,
+      "name": "Schneringer, Tommy",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 24,
+      "choice": "none"
+    },
+    {
+      "id": 270,
+      "name": "Schrecengost, Wyatt",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 12,
+      "choice": "none"
+    },
+    {
+      "id": 234,
+      "name": "Unruh, Maggie",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 237,
+      "name": "VanStory, Kaitlyn",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 10,
+      "choice": "none"
+    },
+    {
+      "id": 247,
+      "name": "West, Harper",
+      "email": "none",
+      "classID": "1 Sandoval",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 274,
+      "name": "Baca, Ethan",
+      "email": "none",
+      "classID": 0,
+      "balance": 128,
+      "choice": "none"
+    },
+    {
+      "id": 276,
+      "name": "Holmes, Caroline",
+      "email": "none",
+      "classID": 0,
+      "balance": 36,
+      "choice": "none"
+    },
+    {
+      "id": 277,
+      "name": "King, Mia",
+      "email": "none",
+      "classID": 0,
+      "balance": 14,
+      "choice": "none"
+    },
+    {
+      "id": 279,
+      "name": "Love, Alice",
+      "email": "none",
+      "classID": 0,
+      "balance": 32,
+      "choice": "none"
+    },
+    {
+      "id": 275,
+      "name": "Rentz, Wyatt",
+      "email": "none",
+      "classID": 0,
+      "balance": 1,
+      "choice": "none"
+    },
+    {
+      "id": 260,
+      "name": "Scott, Deb",
+      "email": "none",
+      "classID": "Staff",
+      "balance": 7,
+      "choice": "none"
+    },
+    {
+      "id": 257,
+      "name": "Taylor, Dianne",
+      "email": "none",
+      "classID": "Staff",
+      "balance": 8,
+      "choice": "none"
+    },
+    {
+      "id": 153,
+      "name": "Mascarenas, Becky",
+      "email": "none",
+      "classID": "Staff",
+      "balance": 22,
       "choice": "none"
     }
   ],
   "classrooms": [
     {
       "id": 0,
-      "teacherName": "0 - Albert"
+      "teacherName": 0
     },
     {
       "id": 1,
-      "teacherName": "0 - Knight"
+      "teacherName": "1 Sandoval"
     },
     {
       "id": 2,
-      "teacherName": "0 - Lang"
+      "teacherName": "1 Walling"
     },
     {
       "id": 3,
-      "teacherName": "1A"
+      "teacherName": "2 Pachello"
     },
     {
       "id": 4,
-      "teacherName": "1B"
+      "teacherName": "2 West"
     },
     {
       "id": 5,
-      "teacherName": "1C"
+      "teacherName": "3 Davidson"
     },
     {
       "id": 6,
-      "teacherName": "2A"
+      "teacherName": "3 Young"
     },
     {
       "id": 7,
-      "teacherName": "2B"
+      "teacherName": "4 Bennett"
     },
     {
       "id": 8,
-      "teacherName": "2C"
+      "teacherName": "4 Larson"
     },
     {
       "id": 9,
-      "teacherName": "3A"
+      "teacherName": "5 Pommer"
     },
     {
       "id": 10,
-      "teacherName": "3B"
+      "teacherName": "5 Rosenstein"
     },
     {
       "id": 11,
-      "teacherName": "3C"
+      "teacherName": "6 Kessel"
     },
     {
       "id": 12,
-      "teacherName": "4A"
+      "teacherName": "6 Nielsen"
     },
     {
       "id": 13,
-      "teacherName": "4B"
+      "teacherName": "7 Burke-Liggett"
     },
     {
       "id": 14,
-      "teacherName": "4B7"
+      "teacherName": "7 Howerton"
     },
     {
       "id": 15,
-      "teacherName": "4BB"
+      "teacherName": "8 Miller"
     },
     {
       "id": 16,
-      "teacherName": "4C"
+      "teacherName": "8 Specials"
     },
     {
       "id": 17,
-      "teacherName": "5A"
+      "teacherName": "Extra"
     },
     {
       "id": 18,
-      "teacherName": "5B"
-    },
-    {
-      "id": 19,
-      "teacherName": "5C"
-    },
-    {
-      "id": 20,
-      "teacherName": "7th"
-    },
-    {
-      "id": 21,
-      "teacherName": "8th"
-    },
-    {
-      "id": 22,
-      "teacherName": "Bennett"
-    },
-    {
-      "id": 23,
-      "teacherName": "Kessel"
-    },
-    {
-      "id": 24,
-      "teacherName": "Kessellll"
+      "teacherName": "Staff"
     }
   ]
 }
